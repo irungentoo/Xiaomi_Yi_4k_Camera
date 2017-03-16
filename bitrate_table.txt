@@ -1,0 +1,82 @@
+How to set custom bitrates on en_US firmware 1.40 in autoexec.ash. See the bitrate_mod directory for an example.
+
+To set a custom bitrate for a resolution do:
+writew [address] [bitrate]
+
+ex:
+writew 0xA061AFFE 0x42AC
+makes 3840x2160 30p high quality setting encode at 90mbs
+
+bitrates (you can pick values in between or above these for fine tuning):
+0x4190 18mbs
+0x41F0 30mbs
+0x4210 36mbs
+0x4220 40mbs
+0x4234 45mbs
+0x4270 60mbs
+0x4284 70mbs
+0x4298 80mbs
+0x42AC 90mbs
+0x42C0 100mbs
+0x42D4 110mbs
+0x42E8 120mbs
+0x42FC 130mbs
+0x4310 150mbs
+(Note: my sd card is slow so I don't know what the actual limit is, anything 
+above 90mbs gives me an sd card is slow error if I record for too long and 
+anything above 130mbs crashes my camera if I record for more than a few seconds)
+
+
+addresses for high quality bitrate (+0x10 = medium, +0x20 = low):
+0xA061AFFE 3840x2160 30p
+0xA061B02E 3840x2160 superview 24p
+0xA061B05E 2976x2976 30p
+0xA061B08E 2688x2688 30p
+0xA061B0BE 2704x1520 60p
+0xA061B0EE 2704x1520 30p
+0xA061B11E 2704x1520 superview 30p
+0xA061B14E 2704x2032 30p
+0xA061B17E 2560x1920 30p
+0xA061B1AE 2560x1440 60p
+0xA061B1DE 2560x1440 30p
+0xA061B20E 2560x1440 30p hdr
+0xA061B23E 2304x1296 30p
+0xA061B26E 1920x1440 60p
+0xA061B29E 1920x1440 30p
+0xA061B2CE 1920x1080 60p
+0xA061B2FE 1920x1080 60p superview
+0xA061B32E 1920x1080 45p
+0xA061B35E 1920x1080 40p
+0xA061B38E 1920x1080 30p
+0xA061B3BE 1920x1080 30p superview
+0xA061B3EE 1920x1080 30p hdr
+0xA061B41E 1920x1080 60i
+0xA061B44E 1440x1080 60p
+0xA061B47E 1440x1080 30p
+0xA061B4AE 1440x1080 60i
+0xA061B4DE 1600x1200 60p
+0xA061B50E 1600x1200 30p
+0xA061B53E 1440x1080 30p
+0xA061B56E 1600x900 30p
+0xA061B59E 1280x720 60p
+0xA061B5CE 1280x720 60p superview
+0xA061B5FE 1280x720 30p
+...
+0xA061BBCE 1920x1080 120p
+0xA061BBFE 1920x1080 120p superview
+0xA061BC2E 1920x1080 100p
+0xA061BC5E 1280x720 240p
+0xA061BC8E 1280x720 200p
+0xA061BCBE 1280x720 120p
+0xA061BCEE 1280x720 120p superview
+0xA061BD1E 848x480 240p
+0xA061BD4E 848x480 120p
+
+0xA061BE6E 1280x960 120p
+0xA061BE9E 1920x1080 90p superview
+
+The resolution/bitrate table is located in /dev/mtdblock1 at position 
+0x0051AFF8. This entire partition gets loaded into memory at boot at offset 
+0xA0100000.
+
+
