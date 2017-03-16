@@ -9,3 +9,5 @@ In this repo there is:
 [Bitrate Table](bitrate_table.txt) How to set set custom bitrates.
 
 [Telnet](telnet/) How to enable telnet on the camera.
+
+[Live](live/) How to create qr codes for the live streaming mode.
