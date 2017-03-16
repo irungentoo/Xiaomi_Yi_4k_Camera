@@ -1,4 +1,4 @@
-Yi 4k Camera
+# Yi 4k Camera
 
 It's a nice camera but it has no documentation anywhere. It uses an ambarella SOC and has two operating systems which run at the same time on it: an RTOS and Linux. The RTOS does everything (encoding, the gui on the camera, etc...) while the linux barely does anything (it hosts a web server and some software that passes commands received from the network or bluetooth to the RTOS).
 
