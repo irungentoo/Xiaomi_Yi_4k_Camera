@@ -11,3 +11,7 @@ In this repo there is:
 [Telnet](telnet/) How to enable telnet on the camera.
 
 [Live](live/) How to create qr codes for the live streaming mode.
+
+[Settings](settings/) Some notes on camera settings.
+
+[Dump Camera Settins](dump_camera_settings/) Dump camera settings to a file.
