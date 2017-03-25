@@ -8,6 +8,10 @@ In this repo there is:
 
 [Bitrate Table](bitrate_table.txt) How to set set custom bitrates.
 
+[4k Ultra 4000x2700 mod](4000x2700_4k_ultra_mod/) A script that increases the resolution of the 4k ultra mode to 4000x2700.
+
+[My autoexec.ash](my_autoexec.ash/) The autoexec script I use on my camera.
+
 [Telnet](telnet/) How to enable telnet on the camera.
 
 [Live](live/) How to create qr codes for the live streaming mode.
