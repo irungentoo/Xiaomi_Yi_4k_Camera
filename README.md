@@ -18,4 +18,11 @@ In this repo there is:
 
 [Settings](settings/) Some notes on camera settings.
 
-[Dump Camera Settins](dump_camera_settings/) Dump camera settings to a file.
+[Dump Camera Settings](dump_camera_settings/) Dump camera settings to a file.
+
+[Dump Memory](dump_memory/) Dump memory to a file.
+
+[Enable RTOS Logs](enable_logs/) Enable RTOS logging to sd card on the camera.
+
+[Sd Card Fix](sdcard_fix/) Fixing sd card compatibility issues.
+
