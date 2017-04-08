@@ -25,4 +25,4 @@ ADATA_u1_wb
 Panasonic
 ```
 
-What I did in [my firmware mod here]() is simply change the frequency of the Mal_Ele_u3_b entry from 120MHz to 100Mhz and now my lexar 633x 128GB card works perfectly on the camera. I have no doubt that issues with other sd card can be solved in the same way.
+What I did in [my firmware mod here](https://github.com/irungentoo/Xiaomi_Yi_4k_Camera/releases/tag/fix1) is simply change the frequency of the Mal_Ele_u3_b entry from 120MHz to 100Mhz and now my lexar 633x 128GB card works perfectly on the camera. I have no doubt that issues with other sd card can be solved in the same way.
