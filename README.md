@@ -8,7 +8,7 @@ In this repo there is:
 
 [Bitrate Table](bitrate_table.txt) How to set set custom bitrates.
 
-[4k Ultra 4000x2700 mod](4000x2700_4k_ultra_mod/) A script that increases the resolution of the 4k ultra mode to 4000x2700.
+[Ultra Increased Resolution Mod](ultra_increased_resolution/) A script that increases the resolution of the 4k ultra mode to 4000x2700 and the 1080p 90p ultra mode to 2000x1500.
 
 [My autoexec.ash](my_autoexec.ash/) The autoexec script I use on my camera.
 
