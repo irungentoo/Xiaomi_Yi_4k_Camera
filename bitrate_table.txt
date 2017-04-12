@@ -21,10 +21,16 @@ bitrates (you can pick values in between or above these for fine tuning):
 0x42D4 110mbs
 0x42E8 120mbs
 0x42FC 130mbs
+0x4306 140mbs
 0x4310 150mbs
-(Note: my sd card is slow so I don't know what the actual limit is, anything 
-above 90mbs gives me an sd card is slow error if I record for too long and 
-anything above 130mbs crashes my camera if I record for more than a few seconds)
+0x431A 160mbs
+
+(120mbs works if your card is fast enough, the camera crashes if 150mbs is used 
+for more than like 3 seconds. If you want to properly test if your card can 
+handle a bitrate you need to test for more than a few minutes preferably 
+recording lots of motion. If you get a slow sd card error it means your sd card 
+is too slow and that the camera stopped recording for a few seconds in order to 
+catch up)
 
 
 addresses for high quality bitrate (+0x10 = medium, +0x20 = low):
