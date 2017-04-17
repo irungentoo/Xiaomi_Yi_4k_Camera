@@ -1,5 +1,7 @@
 # Yi 4k Camera
 
+Help me port the bitrate mod to the yi4k+: https://igg.me/at/yi4k-plus-bitrate-mod
+
 Current master is for firmware 1.4.14.
 
 For older firmwares see: [1.4](https://github.com/irungentoo/Xiaomi_Yi_4k_Camera/tree/1.4)
