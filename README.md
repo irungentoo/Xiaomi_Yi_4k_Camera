@@ -2,9 +2,9 @@
 
 Help me port the bitrate mod to the yi4k+: https://igg.me/at/yi4k-plus-bitrate-mod
 
-Current master is for firmware 1.4.14.
+Current master is for firmware 1.4.23.
 
-For older firmwares see: [1.4](https://github.com/irungentoo/Xiaomi_Yi_4k_Camera/tree/1.4)
+For older firmwares see: [1.4.14](https://github.com/irungentoo/Xiaomi_Yi_4k_Camera/tree/1.4.14) [1.4](https://github.com/irungentoo/Xiaomi_Yi_4k_Camera/tree/1.4)
 
 It's a nice camera but it has no documentation anywhere. It uses an ambarella SOC and has two operating systems which run at the same time on it: an RTOS and Linux. The RTOS does everything (encoding, the gui on the camera, etc...) while the linux barely does anything (it hosts a web server and some software that passes commands received from the network or bluetooth to the RTOS).
 
@@ -29,6 +29,3 @@ In this repo there is:
 [Dump Memory](dump_memory/) Dump memory to a file.
 
 [Enable RTOS Logs](enable_logs/) Enable RTOS logging to sd card on the camera.
-
-[Sd Card Fix](sdcard_fix/) Fixing sd card compatibility issues.
-

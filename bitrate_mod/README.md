@@ -1,4 +1,4 @@
-## Bitrate mod for the Yi 4k on en_US firmware 1.40.
+## Bitrate mod for the Yi 4k on en_US firmware 1.4.23.
 
 Sets the high quality setting bitrate of a few resolutions to 90mbps and their medium quality setting to 60mbps.
 
