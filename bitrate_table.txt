@@ -17,7 +17,7 @@ bitrates (you can pick values in between or above these for fine tuning):
 0x4284 70mbs
 0x4298 80mbs
 0x42AC 90mbs
-0x42C0 100mbs
+0x42C8 100mbs
 0x42D4 110mbs
 0x42E8 120mbs
 0x42FC 130mbs
