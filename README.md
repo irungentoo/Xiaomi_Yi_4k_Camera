@@ -27,3 +27,5 @@ In this repo there is:
 [Dump Memory](dump_memory/) Dump memory to a file.
 
 [Enable RTOS Logs](enable_logs/) Enable RTOS logging to sd card on the camera.
+
+[Betas](betas/) Mods for beta firmwares.
