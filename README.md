@@ -1,8 +1,8 @@
 # Yi 4k Camera
 
-Current master is for firmware 1.5.1.
+Current master is for firmware 1.6.1.
 
-For older firmwares see: [1.4.23](https://github.com/irungentoo/Xiaomi_Yi_4k_Camera/tree/1.4.23)  [1.4.14](https://github.com/irungentoo/Xiaomi_Yi_4k_Camera/tree/1.4.14) [1.4](https://github.com/irungentoo/Xiaomi_Yi_4k_Camera/tree/1.4)
+For older firmwares see: [1.5.1](https://github.com/irungentoo/Xiaomi_Yi_4k_Camera/tree/1.5.1) [1.4.23](https://github.com/irungentoo/Xiaomi_Yi_4k_Camera/tree/1.4.23)  [1.4.14](https://github.com/irungentoo/Xiaomi_Yi_4k_Camera/tree/1.4.14) [1.4](https://github.com/irungentoo/Xiaomi_Yi_4k_Camera/tree/1.4)
 
 It's a nice camera but it has no documentation anywhere. It uses an ambarella SOC and has two operating systems which run at the same time on it: an RTOS and Linux. The RTOS does everything (encoding, the gui on the camera, etc...) while the linux barely does anything (it hosts a web server and some software that passes commands received from the network or bluetooth to the RTOS).
 
