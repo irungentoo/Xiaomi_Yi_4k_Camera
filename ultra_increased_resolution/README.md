@@ -1,4 +1,4 @@
-## 4000x2700 4k ultra mod for the Yi 4k on firmware 1.6.1
+## 4000x2700 4k ultra mod for the Yi 4k on firmware 1.7.8
 
 Makes the 4k ultra mode have a resolution of 4000x2700.
 
