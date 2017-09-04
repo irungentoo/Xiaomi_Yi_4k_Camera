@@ -1,4 +1,4 @@
-## Bitrate mod for the Yi 4k on firmware 1.7.17
+## Bitrate mod for the Yi 4k on firmware 1.8.9
 
 Increases the bitrates of the most useful resolutions.
 
