@@ -1,3 +1,7 @@
+Note: for some reason the vr firmware won't execute autoexec.ash unless a valid 
+.script file is on the root of the sd card (right beside the autoexec.ash file)
+
+For valid .script files see the folders: enable_logs or telnet
 
 NTSC:
 0xA05F98EA 3840x2160 30P 16:9
