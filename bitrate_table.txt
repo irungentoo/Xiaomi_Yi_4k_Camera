@@ -21,9 +21,16 @@ bitrates (you can pick values in between or above these for fine tuning):
 0x42D4 110mbs
 0x42E8 120mbs
 0x42FC 130mbs
-0x4306 140mbs
-0x4310 150mbs
-0x431A 160mbs
+0x4307 140mbps
+0x4310 150mbps
+0x431C 160mbps
+0x4320 170mbps
+0x432B 180mbps
+0x4333 190mbps
+0x433C 200mbps
+0x4347 210mbps
+0x434D 220mbps
+0x4370 250mbps
 
 (120mbs works if your card is fast enough, the camera crashes if 150mbs is used 
 for more than like 3 seconds. If you want to properly test if your card can 
