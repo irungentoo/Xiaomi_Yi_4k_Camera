@@ -8,6 +8,8 @@ It's a nice camera but it has no documentation anywhere. It uses an ambarella SO
 
 In this repo there is:
 
+[4k+](4k+/) Stuff for the yi 4k+.
+
 [Bitrate Mod](bitrate_mod/) A script that increases the bitrate of some modes on the camera.
 
 [Bitrate Table](bitrate_table.txt) How to set set custom bitrates.
