@@ -7,12 +7,16 @@ It is important to note that the autoexec file needs to have linux line endings
 (meaning you need to have an editor like Notepad++ if you are on windows. Using 
 something like the default windows notepad will add windows line endings which 
 will break the file. This is also the reason why you must not copy paste the 
-file from github and instead (save as) download it if you are on windows). It is 
-also important that the file have an empty line at the end.
+file from github and instead (save as) download it if you are on windows). It 
+is also important that the file have an empty line at the end.
 
 
 The command is:
 ```writel <address> <value>```
+
+This command writes value to a ram address. This means that this mod is not 
+permanent and if you want it gone you can just remove the autoexec.ash file from 
+your sd card and restart your camera.
 
 For example this command:
 ```writel 0xA9D004 0x42F00000```
