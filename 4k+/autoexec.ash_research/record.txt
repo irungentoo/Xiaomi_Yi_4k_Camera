@@ -21,7 +21,7 @@ Note: primary stream is the .mp4 and the secondary is the .sec file used for
 playback on the camera.
 
 To disable to secondary stream:
-t app test record duals 0
+t app test record dual 0
 
 To disable secondary stream saving:
 t app test record duals 0
