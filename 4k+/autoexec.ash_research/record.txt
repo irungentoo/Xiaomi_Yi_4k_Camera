@@ -1,0 +1,27 @@
+
+This command can be used to enable hevc. Only problem is that trying to record 
+with hevc enabled crashes the camera (firmware 1.3.11). This command may start 
+working properly in a future firmware version.
+
+
+Usage: t app test record <option>
+    Test option list:
+         show
+         dual  [0 | 1] 
+         duals [0 | 1] 
+         enctype [streamId][encodeType] 
+             streamId:   0 -> primary, 1: secondary 
+             encodeType: 0 -> H264,    1: H265 
+
+
+To enable hevc for the primary stream:
+t app test record enctype 0 1
+
+Note: primary stream is the .mp4 and the secondary is the .sec file used for 
+playback on the camera.
+
+To disable to secondary stream:
+t app test record duals 0
+
+To disable secondary stream saving:
+t app test record duals 0
