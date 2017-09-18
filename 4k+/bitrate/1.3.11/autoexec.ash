@@ -364,3 +364,5 @@ writel 0xA9E00C 0x3FA00000 #upper bound: 1.25
 writel 0xA9E014 0x41C00000 #24mbps
 writel 0xA9E018 0x3F400000 #lower bound: 0.75
 writel 0xA9E01C 0x3FA00000 #upper bound: 1.25
+#Audio:
+writel 0xA7A518 0x1F400 #128000bs

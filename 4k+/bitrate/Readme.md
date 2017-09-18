@@ -15,15 +15,15 @@ The command is:
 ```writel <address> <value>```
 
 This command writes value to a ram address. This means that this mod is not 
-permanent and if you want it gone you can just remove the autoexec.ash file from 
-your sd card and restart your camera.
+permanent and if you want it gone you can just remove the autoexec.ash file 
+from your sd card and restart your camera.
 
 For example this command:
 ```writel 0xA9D004 0x42F00000```
 
 writes 0x42F00000 which corresponds to 120 to the address 0xA9D004, on firmware 
 1.3.11 this would set the bitrate for the 4000x3008 30P 4:3 resolution to 120 
-(120mbps). If you look in the table below you will see that 0x42F00000 
+(120mbps). If you look in the video table below you will see that 0x42F00000 
 corresponds to 120. You can replace 0x42F00000 with any other value to set any 
 other bitrate.
 
@@ -43,10 +43,30 @@ bitrate.
 To get the address of the lower bound, add 0x04 to the bitrate address, to get 
 the address for the upper bound add 0x08 to the bitrate address.
 
+### Audio bitrate values
 
-The values in the bitrate table are stored as 32 bit floating point values, for 
-your convenience I have a table here with all the conversions you should ever 
-need:
+The audio bitrate is stored as a 32 bit integer corresponding to the number of 
+bits per second.
+
+ex: 0x1F400 is 128000 bits per second which is 128kb/s.
+
+```
+0x1F40 #8kbs
+0x3E80 #16kbs
+0x7D00 #32kbs
+0xFA00 #64kbs
+0x17700 #96kbs
+0x1F400 #128kbs
+0x3E800 #256kbs
+0x4E200 #320kbs
+```
+
+
+### Video bitrate table values
+
+The values in the video bitrate table are stored as 32 bit floating point 
+values, for your convenience I have a table here with all the conversions you 
+should ever need:
 
 ```
 0x3D4CCCCD #0.05
