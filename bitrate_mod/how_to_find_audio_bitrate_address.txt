@@ -1,0 +1,30 @@
+//Audio bitrate mod
+
+ROM:0012C1D0                 MOV             R3, #0xA4E8
+ROM:0012C1D4                 MOV             R1, R6,LSL#5
+ROM:0012C1D8                 MOVT            R3, #0xA7 ; 'º'
+
+-> 0xA7A4E8 + 0x30 = A7A518 bit_rate_mod : 0x1F400 original value
+
+E8 34 0A E3 86 12 A0 E1  A7 30 40 E3 06 11 41 E0
+01 20 83 E0 00 00 56 E3  E0 A9 0B E3 E4 84 0A E3
+01 50 D3 E7 10 30 83 02  04 C0 92 E5 64 30 4B 12
+BE 00 D2 E1 EA A1 40 E3  08 10 92 E5 A7 80 40 E3
+BC E0 D2 E1 10 20 82 12  78 C0 0B E5 64 C0 4B 02
+BE 06 4B E1 74 10 0B E5  07 00 93 08 07 00 92 18
+07 00 8C 08 07 00 83 18  44 19 06 E3 10 2A 06 E3
+B0 E7 4B E1 ED 11 40 E3  00 00 9A E5 40 E0 A0 E3
+00 30 98 E5 ED 21 40 E3  00 E0 8D E5 32 C0 A0 E3
+
+
+ROM:0012C858                 SUB             R0, R11, #-var_E4
+ROM:0012C85C                 MOV             R6, #1
+ROM:0012C860                 BL              sub_463580
+ROM:0012C864                 MOV             R3, #0xA7A4E8
+ROM:0012C86C                 SUB             LR, R11, #-var_C0
+ROM:0012C870                 ADD             R2, R3, #0x2C
+ROM:0012C874                 MOV             R12, #0x632E98
+
+C0 E0 4B E2 2C 20 83 E2  98 CE 02 E3 63 C0 40 E3
+1C 80 D3 E5 B8 92 D3 E1  20 70 93 E5 BA 42 D3 E1
+

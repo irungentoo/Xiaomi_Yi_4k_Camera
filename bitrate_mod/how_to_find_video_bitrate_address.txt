@@ -1,0 +1,68 @@
+
+ROM:00145CB0 bitrate_video_start_wrapper             ; CODE XREF: sub_145D5C+8Cp
+ROM:00145CB0
+ROM:00145CB0 var_B4          = -0xB4
+ROM:00145CB0 var_B0          = -0xB0
+ROM:00145CB0
+ROM:00145CB0                 MOV             R12, SP
+ROM:00145CB4                 STMFD           SP!, {R4-R6,R11,R12,LR,PC}
+ROM:00145CB8                 SUB             R11, R12, #4
+ROM:00145CBC                 SUB             SP, SP, #0x9C
+ROM:00145CC0                 MOV             R1, #0
+ROM:00145CC4                 MOV             R6, R0
+ROM:00145CC8                 MOV             R2, #0x98 ; 'ÿ'
+ROM:00145CCC                 SUB             R0, R11, #-var_B4
+ROM:00145CD0                 MOV             R5, #0xCE54
+ROM:00145CD4                 BLX             sub_587880
+ROM:00145CD8                 MOV             R3, #0xABED68
+ROM:00145CE0                 MOVT            R5, #0xA9 ; '®'
+ROM:00145CE4                 MOV             R4, #0x77C8
+ROM:00145CE8                 MOV             R0, #0xE630
+ROM:00145CEC                 MOVT            R4, #0x1ED
+ROM:00145CF0                 MOV             R2, #4
+ROM:00145CF4                 LDR             R1, [R3,#(dword_ADED70 - 0xADED68)]
+ROM:00145CF8                 MOVT            R0, #0x63 ; 'c'
+ROM:00145CFC                 STRB            R6, [R5]
+ROM:00145D00                 BL              sub_1E8980
+ROM:00145D04                 SUB             R0, R11, #-var_B4
+ROM:00145D08                 STR             R5, [R4]
+ROM:00145D0C                 BL              sub_FE54C
+ROM:00145D10                 LDR             R1, [R4]
+ROM:00145D14                 SUB             R0, R11, #-var_B0
+ROM:00145D18                 BLX             sub_588B34
+ROM:00145D1C                 SUB             R0, R11, #-var_B4
+ROM:00145D20                 BL              sub_FE5C4
+ROM:00145D24                 MOV             R3, #0x1ED77CC
+ROM:00145D2C                 MOV             R2, R0
+ROM:00145D30                 CLZ             R0, R0
+ROM:00145D34                 MOV             R0, R0,LSR#5
+ROM:00145D38                 RSB             R0, R0, #0
+ROM:00145D3C                 STR             R2, [R3]
+ROM:00145D40                 SUB             SP, R11, #0x18
+ROM:00145D44                 LDMFD           SP, {R4-R6,R11,SP,PC}
+ROM:00145D44 ; End of function bitrate_video_start_wrapper
+
+0D C0 A0 E1 70 D8 2D E9  04 B0 4C E2 9C D0 4D E2
+00 10 A0 E3 00 60 A0 E1  98 20 A0 E3 B4 00 4B E2
+54 5E 0C E3 E9 06 11 FA  68 3D 0E E3 AB 30 40 E3
+A9 50 40 E3 C8 47 07 E3  30 06 0E E3 ED 41 40 E3
+04 20 A0 E3 08 10 93 E5  63 00 40 E3 00 60 C5 E5
+1E 8B 02 EB B4 00 4B E2  00 50 84 E5 0E E2 FE EB
+00 10 94 E5 B0 00 4B E2  85 0B 11 FA B4 00 4B E2
+27 E2 FE EB CC 37 07 E3  ED 31 40 E3 00 20 A0 E1
+10 0F 6F E1 A0 02 A0 E1  00 00 60 E2 00 20 83 E5
+18 D0 4B E2 70 A8 9D E8  0D C0 A0 E1 00 D8 2D E9
+04 B0 4C E2 00 00 A0 E3  00 A8 9D E8 0D C0 A0 E1
+30 D8 2D E9 04 B0 4C E2  CC 47 07 E3 ED 41 40 E3
+00 50 A0 E1 01 00 A0 E3  05 10 A0 E1 01 08 43 E3
+
+
+From the function above: struct start address : 0xA9CE54
+
+ROM:00145CD0                 MOV             R5, #0xCE54
+ROM:00145CD4                 BLX             sub_587880
+ROM:00145CD8                 MOV             R3, #0xABED68
+ROM:00145CE0                 MOVT            R5, #0xA9 ; '®'
+
+
+First table entry @ 0xA9CE54 + 0x90
