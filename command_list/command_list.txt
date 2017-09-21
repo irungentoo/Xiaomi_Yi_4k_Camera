@@ -1,0 +1,244 @@
+ROM:005E7140 00000033 C Usage: t audioenc create [PriEncType] [SecEncType]
+ROM:005E7175 00000024 C                EncType: encode type               
+ROM:005E719D 0000001E C                       0 : AAC                     
+ROM:005E71C1 0000001A C                   1 : PCM                         
+ROM:005E71DD 00000023 C                       2 : AAC_PLUS                
+ROM:005E7200 00000027 C                        3 : AAC_PLUS_V2            
+ROM:005E7229 00000020 C                       4 : ADPCM                   
+ROM:005E7255 00000016 C               5 : AC3                             
+ROM:005E726D 00000020 C                       6 : MPEG3                   
+ROM:005E7291 0000001F C                       7 : OPUS                    
+ROM:005E72B0 0000001F C                        8 : AMR                    
+
+ROM:005E74E9 00000021 C Usage: t audioenc aacfmt [format]                                                
+ROM:005E7529 0000000B C  (default)                                                                      
+ROM:005E7534 0000001D C                      1 : RAW                                                                                                          
+    
+ROM:005E75A1 0000001E C Usage: t audioenc multi [mode]                                                   
+ROM:005E75C1 00000044 C             mode: 0x1 : multi AIN, current only support up to 2 AIN             
+ROM:005E7609 00000051 C                   0x2 : multi stream encode, current only support up to 2 stream
+                                                                       
+ROM:005E7669 0000001F C Usage: t audioenc logmuxer [en]  
+                                                
+ROM:005E768C 0000001C C Usage: t audioenc dbg [lvl]                                                     
+                                                                      
+ROM:005E76B5 00000025 C Usage: t audioenc dumpskip [skipflag]                                            
+
+ROM:005F0ED0 0000004B C Usage: t app test dzoom [factorX] [factorY] [shiftX Pixel] [shiftY Pixel]\n
+
+ROM:005F0F48 00000043 C Usage: t app test onoff [0/1] [time_to_poweroff] [time_to_wakeup]\n
+
+ROM:005F0FFC 00000041 C Usage: t app test_v10 video_tlapse [ 500 | 0 | 1 | 2 | 5 | 30 ]\n
+
+ROM:005F1074 0000002B C Usage: t app test pb_zoom [x] [y] [factor]
+
+ROM:005F142C 0000002A C Usage: t app msg <msg> <param1> <param2>\n
+
+ROM:005F167C 0000002A C Usage: t app test chg_res [resolution ID]
+
+ROM:005F1874 00000028 C Usage: t app test chg_LCD [LCDpanelIdx]
+ROM:005F189C 0000001B C      The LCDpanelIdx list:             
+ROM:005F18B8 0000001D C      0: LCD_T30P61 (default)           
+ROM:005F18D8 00000016 C      1: LCD_WDF9648W                   
+ROM:005F18F0 00000014 C      2: LCD_T20P52                     
+ROM:005F1904 00000014 C      3: LCD_T27P05                     
+ROM:005F1918 00000016 C      4: LCD_H145ALN01                  
+
+ROM:005F16B4 0000007D C Usage: t app test chg_bitrate c [BitRateAvg]       
+			       t app test chg_bitrate v [BitRateAvg][BitRateRatioMin][BitRateRatioMax]
+
+ROM:005F1C10 00000037 C Usage: t app test enc mode [videorawenc: 1/ normal :0]
+
+ROM:005F1C54 0000003B C Usage: t app test enc stillrawcap [Cmpr][DumpItuner][Size]
+ROM:005F1C90 00000034 C              Cmpr:0 : Normal Raw, 1 : Compress Raw.       
+ROM:005F1CC4 00000033 C              DumpItuner: Enable dump ituner or not        
+ROM:005F1CF8 0000002E C              Size: Select single capture size             
+
+ROM:005F1D34 00000047 C Usage: t app test videorawcap [RawCompress][Number][EnableFaseCapture]
+ROM:005F1D7C 0000003B C              RawCompress:0 : Normal Raw, 1 : Compress Raw.            
+ROM:005F1DB8 0000002E C              Number: Capture raw number.                              
+ROM:005F1DE8 00000041 C              EnableFaseCapture: Enable fast capture or not            
+
+ROM:005F1E8C 00000053 C Usage: t app test enc videorawenc lvstart [TimeScale] [TickPerPicture] [Interlace]
+
+ROM:005F2D24 00000034 C Usage: t app test chg_usbmode [msc|amage|rs232|uvc] 
+                                                                                                                                                                                    
+ROM:005F2D58 0000005E C Usage: t app test graph <option>
+						save_osd [chanId]
+						rotation [chanId] [degree]
+                                                                                                                                   
+ROM:005F2DB8 0000004B C Usage: t  videorawenc lvstart     [TimeScale] [TickPerPicture] [Interlace]                                                                                                                                                              
+ROM:005F2E04 0000002C C                                 lvstop                                                                                                                                                                                                  
+ROM:005F2E30 0000002D C                                 encstart                                                                                                                                                                                                
+ROM:005F2E60 0000002D C                                 encstop                                                                                                                                                                                                 
+ROM:005F2E90 00000036 C                                 feedraw    [filepath]                                                                                                                                                                                   
+ROM:005F2EC8 00000035 C                                 updateIK  [filepath]
+                                                                                                                                                                                    
+ROM:005F2F00 000000AD C Usage: t app test idr <option>
+					Test option list:
+						init
+						vid <filename>
+						img <img source> <filename>
+						<img source> 0:full, 1:thumbnail, 2:screennail
+						uninit
+                                       
+ROM:005F2FB0 00000053 C Usage: t app test usbdbg <option>
+					Test option list:
+						start
+						2uart
+						2usb
+                                                                                                                                            
+ROM:005F3004 000000DB C Usage: t app test record <option>
+					Test option list:
+						show
+						dual  [0 | 1]
+						duals [0 | 1]
+						enctype [streamId][encodeType]
+						streamId:   0 -> primary, 1: secondary
+						encodeType: 0 -> H264,    1: H265
+
+ROM:005F30E0 00000051 C Usage: t app test eis [on | off | show | set_range | set_degree | set_strength]
+                                                                                                                                                    
+ROM:005F3134 00000037 C Usage: t app qtest <option> -> res                                                                                                                                                                             
+
+ROM:005F45A8 00000022 C t ants power_saving on 30/60/120
+
+ROM:005F45CC 00000019 C t ants power_saving off       
+
+ROM:005F5640 00000025 C t ants audio reg_wr [Addr] [Value]
+        
+ROM:005F5668 0000001D C t ants audio reg_rd [Addr]   
+               
+ROM:005F5688 00000019 C t ants audio priv_dump
+                      
+ROM:005F56A4 00000026 C t ants audio priv_wr [Addr] [Value]  
+       
+ROM:005F56CC 0000001E C t ants audio priv_rd [Addr]          
+     
+ROM:005F56EC 00000025 C t ants audio input mode [line|mic]   
+       
+ROM:005F5714 00000026 C t ants audio input denoise [on|off]   
+     
+ROM:005F573C 00000028 C t ants audio input vol [high|low|off] 
+      
+ROM:005F5764 0000002F C t ants audio output vol [high|low|off|[val]]
+
+ROM:00609E78 00000011 C Usage: t imgproc                                                                            
+ROM:00609E8C 0000000E C          -ver                                                                               
+ROM:00609E9C 0000001E C          -3a         [on|off]                                                               
+ROM:00609EBC 00000011 C          -3a ver                                                                            
+ROM:00609ED0 0000001E C          -ae         [on|off]                                                               
+ROM:00609F0E 0000001C C        -awb        [on|off]                                                                 
+ROM:00609F2C 0000001C C          -awb info   [chNo]                                                                 
+ROM:00609F48 0000001E C          -adj        [on|off]                                                               
+ROM:00609F68 0000001B C          -exif_dbg   [0|1]                                                                  
+ROM:00609F84 0000005D C          -me         [Video|Still : 0|1] [ShtTime : us] [Gain : 1x 1000] [Dgain : Unit 4096]
+ROM:00609FE4 0000004C C          -mwb        [Video|Still : 0|1] [GainR] [GainG] [GainB], Unit 4096                 
+ROM:0060A030 0000003D C          -slowshutter[Video|Photo : 0|1] [SlowShutter_level]                                
+ROM:0060A070 00000023 C          -sharp      [Level : 0~6]                                                          
+
+ROM:0063F708 000000D5 C Usage: t %s -showcmd [on|off]: turn on|off all of IK filter debug msg\n\r       t %s -showcmd [id] [on|off]: turn on|off specified filter debug msg\n\r                                    id:0 can list all of cmd id
+
+ROM:0063F8DC 00000059 C t img -rawenc [filepath] : raw encode flow\n\tfilepath = file path for configuration file\n
+
+ROM:0063F9A8 000000A5 C \n\rUsage: t %s -dpc: get the current dynamic bad pixel correction setting\n\r       t %s -dpc [enable] [hot_str] [dark_str] [cor_method]: set the current dpc setting\n\r
+
+ROM:0064A168 00000029 C Usage: t %s <command>, where command is:                                      
+ROM:0064A19A 0000004E C suspend <suspend_mode>, 0: hiber to NAND, 1: hiber to RAM, 2: standby to RAM, 3: Sleep to RAM
+
+ROM:0065621C 0000003B C t cal vnc debug enable :enable debug Flag to print message
+
+ROM:005E6C79 0000002E C sage: t audioenc init|create|encstart|encstop                 
+ROM:005E6CA9 00000015 C       init: init all                                          
+ROM:005E6CC1 00000014 C       exit: del tsk                                           
+ROM:005E6CD9 0000003D C       create [PriEncType][SecEncType]: create audio instance  
+ROM:005E6D19 0000003B C       encstart [millisecond]: recording for N milliseconds    
+ROM:005E6D54 0000003F C                                N = 0 will do continuous encode
+ROM:005E6D95 0000001E C       encstop: stop recording                                 
+ROM:005E6DB6 00000012 C      encpause: pau                                            
+ROM:005E6DCE 00000007 C ording                                                        
+ROM:005E6DDD 00000017 C   encresume: resume rec                                       
+ROM:005E6DFD 00000024 C       delete: delete audio instance                           
+
+ROM:005E7140 00000033 C Usage: t audioenc create [PriEncType] [SecEncType]
+ROM:005E7175 00000024 C                EncType: encode type               
+ROM:005E719D 0000001E C                       0 : AAC                     
+ROM:005E71C1 0000001A C                   1 : PCM                         
+ROM:005E71DD 00000023 C                       2 : AAC_PLUS                
+ROM:005E7200 00000027 C                        3 : AAC_PLUS_V2            
+ROM:005E7229 00000020 C                       4 : ADPCM                   
+ROM:005E7255 00000016 C               5 : AC3                             
+ROM:005E726D 00000020 C                       6 : MPEG3                   
+ROM:005E7291 0000001F C                       7 : OPUS                    
+ROM:005E72B0 0000001F C                        8 : AMR                    
+
+ROM:005E74E9 00000021 C sage: t audioenc aacfmt [format]
+ROM:005E7529 0000000B C  (default)                      
+ROM:005E7534 0000001D C                      1 : RAW    
+
+ROM:005E75A1 0000001E C sage: t audioenc multi [mode]                                                   
+ROM:005E75C1 00000044 C             mode: 0x1 : multi AIN, current only support up to 2 AIN             
+ROM:005E7609 00000051 C                   0x2 : multi stream encode, current only support up to 2 stream
+
+ROM:005E7669 0000001F C Usage: t audioenc logmuxer [en] 
+     
+ROM:005E768C 0000001C C Usage: t audioenc dbg [lvl]         
+                        
+ROM:005E76B5 00000025 C Usage: t audioenc dumpskip [skipflag]
+
+ROM:005F071C 00000027 C Usage: t app test beep set_vol <vol>
+
+ROM:005F0F48 00000043 C Usage: t app test onoff [0/1] [time_to_poweroff] [time_to_wakeup]
+
+ROM:005F0FFC 00000041 C Usage: t app test_v10 video_tlapse [ 500 | 0 | 1 | 2 | 5 | 30 ]
+
+ROM:005F10DC 00000328 C Usage: t app test_v10 <option>
+					Test option list:
+						powersaving
+						sd_slow_write [threshold in ms]
+						show_bs_buffer [threshold in MB]
+						beep [play | set_vol]
+						audio [read | write] [addr] [data]
+						sharepv [init|en|dis]
+						audio_effect channel [0|1]
+						channel_config [config]
+						dzoom [factorX] [factorY] [shiftX Pixel] [shiftY Pixel]
+						set_enc_rot [rot_option]
+						onoff [0/1] [time_to_poweroff] [time_to_wakeup]
+						show_temp [0|1|2] (0:disable, 1:show always 2:show only when over threshold)
+						show_bat  [0|1|2] (0:disable, 1:show always 2:show only when over threshold)
+						video_tlapse [ 500 | 0 | 1 | 2 | 5 | 30 ]
+						audio_liveview [0|1]
+						pb_zoom [x] [y] [factor] (factor: 100~1000, 100=1x, 1000=10x)
+						save_bin [y_addr] [uv_addr] [width] [height] [cache_invalidate] [filename]
+						set_np [ntsc|pal]
+
+ROM:005F2D24 00000034 C Usage: t app test chg_usbmode [msc|amage|rs232|uvc] 
+                                                
+ROM:005F2D58 0000005E C Usage: t app test graph <option>
+						save_osd [chanId]
+						rotation [chanId] [degree]
+						convclut
+
+ROM:005F2DB8 0000004B C Usage: t  videorawenc lvstart     [TimeScale] [TickPerPicture] [Interlace]                          
+ROM:005F2E04 0000002C C                                 lvstop                                                              
+ROM:005F2E30 0000002D C                                 encstart                                                            
+ROM:005F2E60 0000002D C                                 encstop                                                             
+ROM:005F2E90 00000036 C                                 feedraw    [filepath]                                               
+ROM:005F2EC8 00000035 C                                 updateIK  [filepath]                                                
+
+ROM:005F30E0 00000051 C Usage: t app test eis [on | off | show | set_range | set_degree | set_strength]
+
+ROM:00609E78 00000011 C Usage: t imgproc                                                                            
+ROM:00609E8C 0000000E C          -ver                                                                               
+ROM:00609E9C 0000001E C          -3a         [on|off]                                                               
+ROM:00609EBC 00000011 C          -3a ver                                                                            
+ROM:00609ED0 0000001E C          -ae         [on|off]                                                               
+ROM:00609F0E 0000001C C        -awb        [on|off]                                                                 
+ROM:00609F2C 0000001C C          -awb info   [chNo]                                                                 
+ROM:00609F48 0000001E C          -adj        [on|off]                                                               
+ROM:00609F68 0000001B C          -exif_dbg   [0|1]                                                                  
+ROM:00609F84 0000005D C          -me         [Video|Still : 0|1] [ShtTime : us] [Gain : 1x 1000] [Dgain : Unit 4096]
+ROM:00609FE4 0000004C C          -mwb        [Video|Still : 0|1] [GainR] [GainG] [GainB], Unit 4096                 
+ROM:0060A030 0000003D C          -slowshutter[Video|Photo : 0|1] [SlowShutter_level]                                
+ROM:0060A070 00000023 C          -sharp      [Level : 0~6]                                                          
