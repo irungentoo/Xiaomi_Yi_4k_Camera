@@ -1,0 +1,1023 @@
+writel 0xA9CEE4 0x42c80000 #high_quality 100.000000
+writel 0xA9CEE8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9CEEC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9CEF4 0x42700000 #medium_quality 60.000000
+writel 0xA9CEF8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9CEFC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9CF04 0x42340000 #low_quality 45.000000
+writel 0xA9CF08 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9CF0C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9CF14 0x42c80000 #high_quality 100.000000
+writel 0xA9CF18 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9CF1C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9CF24 0x42700000 #medium_quality 60.000000
+writel 0xA9CF28 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9CF2C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9CF34 0x42340000 #low_quality 45.000000
+writel 0xA9CF38 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9CF3C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9CF44 0x43070000 #high_quality 135.000000
+writel 0xA9CF48 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9CF4C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9CF54 0x42c80000 #medium_quality 100.000000
+writel 0xA9CF58 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9CF5C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9CF64 0x42700000 #low_quality 60.000000
+writel 0xA9CF68 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9CF6C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9CF74 0x43070000 #high_quality 135.000000
+writel 0xA9CF78 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9CF7C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9CF84 0x42c80000 #medium_quality 100.000000
+writel 0xA9CF88 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9CF8C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9CF94 0x42700000 #low_quality 60.000000
+writel 0xA9CF98 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9CF9C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9CFA4 0x42c80000 #high_quality 100.000000
+writel 0xA9CFA8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9CFAC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9CFB4 0x42700000 #medium_quality 60.000000
+writel 0xA9CFB8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9CFBC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9CFC4 0x42340000 #low_quality 45.000000
+writel 0xA9CFC8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9CFCC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9CFD4 0x41f00000 #high_quality 30.000000
+writel 0xA9CFD8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9CFDC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9CFE4 0x41a00000 #medium_quality 20.000000
+writel 0xA9CFE8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9CFEC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9CFF4 0x41700000 #low_quality 15.000000
+writel 0xA9CFF8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9CFFC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D004 0x42f00000 #high_quality 120.000000
+writel 0xA9D008 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D00C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D014 0x42960000 #medium_quality 75.000000
+writel 0xA9D018 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D01C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D024 0x42700000 #low_quality 60.000000
+writel 0xA9D028 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D02C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D034 0x42340000 #high_quality 45.000000
+writel 0xA9D038 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D03C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D044 0x41f00000 #medium_quality 30.000000
+writel 0xA9D048 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D04C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D054 0x41c00000 #low_quality 24.000000
+writel 0xA9D058 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D05C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D064 0x42340000 #high_quality 45.000000
+writel 0xA9D068 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D06C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D074 0x41f00000 #medium_quality 30.000000
+writel 0xA9D078 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D07C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D084 0x41c00000 #low_quality 24.000000
+writel 0xA9D088 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D08C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D094 0x42960000 #high_quality 75.000000
+writel 0xA9D098 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D09C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D0A4 0x42700000 #medium_quality 60.000000
+writel 0xA9D0A8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D0AC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D0B4 0x42340000 #low_quality 45.000000
+writel 0xA9D0B8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D0BC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D0C4 0x42700000 #high_quality 60.000000
+writel 0xA9D0C8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D0CC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D0D4 0x42340000 #medium_quality 45.000000
+writel 0xA9D0D8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D0DC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D0E4 0x41c00000 #low_quality 24.000000
+writel 0xA9D0E8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D0EC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D0F4 0x42700000 #high_quality 60.000000
+writel 0xA9D0F8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D0FC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D104 0x42340000 #medium_quality 45.000000
+writel 0xA9D108 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D10C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D114 0x41c00000 #low_quality 24.000000
+writel 0xA9D118 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D11C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D124 0x42960000 #high_quality 75.000000
+writel 0xA9D128 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D12C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D134 0x42700000 #medium_quality 60.000000
+writel 0xA9D138 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D13C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D144 0x42340000 #low_quality 45.000000
+writel 0xA9D148 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D14C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D154 0x42960000 #high_quality 75.000000
+writel 0xA9D158 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D15C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D164 0x42700000 #medium_quality 60.000000
+writel 0xA9D168 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D16C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D174 0x42340000 #low_quality 45.000000
+writel 0xA9D178 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D17C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D184 0x42960000 #high_quality 75.000000
+writel 0xA9D188 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D18C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D194 0x42700000 #medium_quality 60.000000
+writel 0xA9D198 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D19C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D1A4 0x42340000 #low_quality 45.000000
+writel 0xA9D1A8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D1AC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D1B4 0x42700000 #high_quality 60.000000
+writel 0xA9D1B8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D1BC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D1C4 0x42340000 #medium_quality 45.000000
+writel 0xA9D1C8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D1CC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D1D4 0x41c00000 #low_quality 24.000000
+writel 0xA9D1D8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D1DC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D1E4 0x42100000 #high_quality 36.000000
+writel 0xA9D1E8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D1EC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D1F4 0x41f00000 #medium_quality 30.000000
+writel 0xA9D1F8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D1FC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D204 0x41c00000 #low_quality 24.000000
+writel 0xA9D208 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D20C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D214 0x41c00000 #high_quality 24.000000
+writel 0xA9D218 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D21C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D224 0x41a00000 #medium_quality 20.000000
+writel 0xA9D228 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D22C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D234 0x41800000 #low_quality 16.000000
+writel 0xA9D238 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D23C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D244 0x41c00000 #high_quality 24.000000
+writel 0xA9D248 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D24C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D254 0x41a00000 #medium_quality 20.000000
+writel 0xA9D258 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D25C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D264 0x41800000 #low_quality 16.000000
+writel 0xA9D268 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D26C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D274 0x41900000 #high_quality 18.000000
+writel 0xA9D278 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D27C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D284 0x41700000 #medium_quality 15.000000
+writel 0xA9D288 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D28C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D294 0x41400000 #low_quality 12.000000
+writel 0xA9D298 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D29C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D2A4 0x42960000 #high_quality 75.000000
+writel 0xA9D2A8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D2AC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D2B4 0x42700000 #medium_quality 60.000000
+writel 0xA9D2B8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D2BC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D2C4 0x42340000 #low_quality 45.000000
+writel 0xA9D2C8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D2CC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D2D4 0x42700000 #high_quality 60.000000
+writel 0xA9D2D8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D2DC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D2E4 0x42340000 #medium_quality 45.000000
+writel 0xA9D2E8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D2EC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D2F4 0x41c00000 #low_quality 24.000000
+writel 0xA9D2F8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D2FC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D304 0x42700000 #high_quality 60.000000
+writel 0xA9D308 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D30C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D314 0x42340000 #medium_quality 45.000000
+writel 0xA9D318 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D31C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D324 0x41c00000 #low_quality 24.000000
+writel 0xA9D328 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D32C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D334 0x42960000 #high_quality 75.000000
+writel 0xA9D338 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D33C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D344 0x42700000 #medium_quality 60.000000
+writel 0xA9D348 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D34C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D354 0x42340000 #low_quality 45.000000
+writel 0xA9D358 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D35C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D364 0x42700000 #high_quality 60.000000
+writel 0xA9D368 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D36C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D374 0x42340000 #medium_quality 45.000000
+writel 0xA9D378 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D37C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D384 0x41c00000 #low_quality 24.000000
+writel 0xA9D388 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D38C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D394 0x41900000 #high_quality 18.000000
+writel 0xA9D398 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D39C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D3A4 0x41700000 #medium_quality 15.000000
+writel 0xA9D3A8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D3AC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D3B4 0x41400000 #low_quality 12.000000
+writel 0xA9D3B8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D3BC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D3C4 0x42700000 #high_quality 60.000000
+writel 0xA9D3C8 0x3f800000 #high_quality_low_mult 1.000000
+writel 0xA9D3CC 0x3f800000 #high_quality_high_mult 1.000000
+writel 0xA9D3D4 0x42340000 #medium_quality 45.000000
+writel 0xA9D3D8 0x3f800000 #medium_quality_low_mult 1.000000
+writel 0xA9D3DC 0x3f800000 #medium_quality_high_mult 1.000000
+writel 0xA9D3E4 0x41c00000 #low_quality 24.000000
+writel 0xA9D3E8 0x3f800000 #low_quality_low_mult 1.000000
+writel 0xA9D3EC 0x3f800000 #low_quality_high_mult 1.000000
+
+
+writel 0xA9D3F4 0x42340000 #high_quality 45.000000
+writel 0xA9D3F8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D3FC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D404 0x41f00000 #medium_quality 30.000000
+writel 0xA9D408 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D40C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D414 0x41400000 #low_quality 12.000000
+writel 0xA9D418 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D41C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D424 0x42340000 #high_quality 45.000000
+writel 0xA9D428 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D42C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D434 0x41f00000 #medium_quality 30.000000
+writel 0xA9D438 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D43C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D444 0x41400000 #low_quality 12.000000
+writel 0xA9D448 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D44C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D454 0x42700000 #high_quality 60.000000
+writel 0xA9D458 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D45C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D464 0x42340000 #medium_quality 45.000000
+writel 0xA9D468 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D46C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D474 0x41c00000 #low_quality 24.000000
+writel 0xA9D478 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D47C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D484 0x42700000 #high_quality 60.000000
+writel 0xA9D488 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D48C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D494 0x42340000 #medium_quality 45.000000
+writel 0xA9D498 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D49C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D4A4 0x41c00000 #low_quality 24.000000
+writel 0xA9D4A8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D4AC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D4B4 0x42340000 #high_quality 45.000000
+writel 0xA9D4B8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D4BC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D4C4 0x41f00000 #medium_quality 30.000000
+writel 0xA9D4C8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D4CC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D4D4 0x41400000 #low_quality 12.000000
+writel 0xA9D4D8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D4DC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D4E4 0x41700000 #high_quality 15.000000
+writel 0xA9D4E8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D4EC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D4F4 0x41400000 #medium_quality 12.000000
+writel 0xA9D4F8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D4FC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D504 0x41200000 #low_quality 10.000000
+writel 0xA9D508 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D50C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D514 0x41700000 #high_quality 15.000000
+writel 0xA9D518 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D51C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D524 0x41400000 #medium_quality 12.000000
+writel 0xA9D528 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D52C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D534 0x41200000 #low_quality 10.000000
+writel 0xA9D538 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D53C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D544 0x41400000 #high_quality 12.000000
+writel 0xA9D548 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D54C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D554 0x41200000 #medium_quality 10.000000
+writel 0xA9D558 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D55C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D564 0x41000000 #low_quality 8.000000
+writel 0xA9D568 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D56C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D574 0x41700000 #high_quality 15.000000
+writel 0xA9D578 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D57C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D584 0x41400000 #medium_quality 12.000000
+writel 0xA9D588 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D58C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D594 0x41200000 #low_quality 10.000000
+writel 0xA9D598 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D59C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D5A4 0x41700000 #high_quality 15.000000
+writel 0xA9D5A8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D5AC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D5B4 0x41400000 #medium_quality 12.000000
+writel 0xA9D5B8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D5BC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D5C4 0x41200000 #low_quality 10.000000
+writel 0xA9D5C8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D5CC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D5D4 0x41400000 #high_quality 12.000000
+writel 0xA9D5D8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D5DC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D5E4 0x41200000 #medium_quality 10.000000
+writel 0xA9D5E8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D5EC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D5F4 0x41000000 #low_quality 8.000000
+writel 0xA9D5F8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D5FC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D604 0x41400000 #high_quality 12.000000
+writel 0xA9D608 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D60C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D614 0x41200000 #medium_quality 10.000000
+writel 0xA9D618 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D61C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D624 0x41000000 #low_quality 8.000000
+writel 0xA9D628 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D62C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D634 0x41400000 #high_quality 12.000000
+writel 0xA9D638 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D63C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D644 0x41200000 #medium_quality 10.000000
+writel 0xA9D648 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D64C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D654 0x41000000 #low_quality 8.000000
+writel 0xA9D658 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D65C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D664 0x42700000 #high_quality 60.000000
+writel 0xA9D668 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D66C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D674 0x42340000 #medium_quality 45.000000
+writel 0xA9D678 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D67C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D684 0x41c00000 #low_quality 24.000000
+writel 0xA9D688 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D68C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D694 0x42700000 #high_quality 60.000000
+writel 0xA9D698 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D69C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D6A4 0x42340000 #medium_quality 45.000000
+writel 0xA9D6A8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D6AC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D6B4 0x41c00000 #low_quality 24.000000
+writel 0xA9D6B8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D6BC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D6C4 0x42340000 #high_quality 45.000000
+writel 0xA9D6C8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D6CC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D6D4 0x41f00000 #medium_quality 30.000000
+writel 0xA9D6D8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D6DC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D6E4 0x41400000 #low_quality 12.000000
+writel 0xA9D6E8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D6EC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D6F4 0x42340000 #high_quality 45.000000
+writel 0xA9D6F8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D6FC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D704 0x41f00000 #medium_quality 30.000000
+writel 0xA9D708 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D70C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D714 0x41400000 #low_quality 12.000000
+writel 0xA9D718 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D71C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D724 0x3f800000 #high_quality 1.000000
+writel 0xA9D728 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D72C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D734 0x3f800000 #medium_quality 1.000000
+writel 0xA9D738 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D73C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D744 0x3f800000 #low_quality 1.000000
+writel 0xA9D748 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D74C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D754 0x3f800000 #high_quality 1.000000
+writel 0xA9D758 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D75C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D764 0x3f800000 #medium_quality 1.000000
+writel 0xA9D768 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D76C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D774 0x3f800000 #low_quality 1.000000
+writel 0xA9D778 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D77C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D784 0x3f800000 #high_quality 1.000000
+writel 0xA9D788 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D78C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D794 0x3f800000 #medium_quality 1.000000
+writel 0xA9D798 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D79C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D7A4 0x3f800000 #low_quality 1.000000
+writel 0xA9D7A8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D7AC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D7B4 0x3f800000 #high_quality 1.000000
+writel 0xA9D7B8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D7BC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D7C4 0x3f800000 #medium_quality 1.000000
+writel 0xA9D7C8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D7CC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D7D4 0x3f800000 #low_quality 1.000000
+writel 0xA9D7D8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D7DC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D7E4 0x41000000 #high_quality 8.000000
+writel 0xA9D7E8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D7EC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D7F4 0x40c00000 #medium_quality 6.000000
+writel 0xA9D7F8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D7FC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D804 0x40800000 #low_quality 4.000000
+writel 0xA9D808 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D80C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D814 0x40800000 #high_quality 4.000000
+writel 0xA9D818 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D81C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D824 0x40400000 #medium_quality 3.000000
+writel 0xA9D828 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D82C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D834 0x40000000 #low_quality 2.000000
+writel 0xA9D838 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D83C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D844 0x42700000 #high_quality 60.000000
+writel 0xA9D848 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D84C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D854 0x42340000 #medium_quality 45.000000
+writel 0xA9D858 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D85C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D864 0x41c00000 #low_quality 24.000000
+writel 0xA9D868 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D86C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D874 0x42700000 #high_quality 60.000000
+writel 0xA9D878 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D87C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D884 0x42340000 #medium_quality 45.000000
+writel 0xA9D888 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D88C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D894 0x41c00000 #low_quality 24.000000
+writel 0xA9D898 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D89C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D8A4 0x41480000 #high_quality 12.500000
+writel 0xA9D8A8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D8AC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D8B4 0x41180000 #medium_quality 9.500000
+writel 0xA9D8B8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D8BC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D8C4 0x40d00000 #low_quality 6.500000
+writel 0xA9D8C8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D8CC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D8D4 0x3f19999a #high_quality 0.600000
+writel 0xA9D8D8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D8DC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D8E4 0x3f000000 #medium_quality 0.500000
+writel 0xA9D8E8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D8EC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D8F4 0x3ecccccd #low_quality 0.400000
+writel 0xA9D8F8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D8FC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D904 0x3f800000 #high_quality 1.000000
+writel 0xA9D908 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D90C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D914 0x3f800000 #medium_quality 1.000000
+writel 0xA9D918 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D91C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D924 0x3f800000 #low_quality 1.000000
+writel 0xA9D928 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D92C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D934 0x3f800000 #high_quality 1.000000
+writel 0xA9D938 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D93C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D944 0x3f800000 #medium_quality 1.000000
+writel 0xA9D948 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D94C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D954 0x3f800000 #low_quality 1.000000
+writel 0xA9D958 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D95C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D964 0x3f333333 #high_quality 0.700000
+writel 0xA9D968 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D96C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D974 0x3f19999a #medium_quality 0.600000
+writel 0xA9D978 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D97C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D984 0x3f000000 #low_quality 0.500000
+writel 0xA9D988 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D98C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D994 0x3f333333 #high_quality 0.700000
+writel 0xA9D998 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D99C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D9A4 0x3f19999a #medium_quality 0.600000
+writel 0xA9D9A8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D9AC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D9B4 0x3f000000 #low_quality 0.500000
+writel 0xA9D9B8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D9BC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D9C4 0x3f333333 #high_quality 0.700000
+writel 0xA9D9C8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D9CC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9D9D4 0x3f19999a #medium_quality 0.600000
+writel 0xA9D9D8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9D9DC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9D9E4 0x3f000000 #low_quality 0.500000
+writel 0xA9D9E8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9D9EC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9D9F4 0x3f333333 #high_quality 0.700000
+writel 0xA9D9F8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9D9FC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DA04 0x3f19999a #medium_quality 0.600000
+writel 0xA9DA08 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DA0C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DA14 0x3f000000 #low_quality 0.500000
+writel 0xA9DA18 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DA1C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DA24 0x42100000 #high_quality 36.000000
+writel 0xA9DA28 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DA2C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DA34 0x41f00000 #medium_quality 30.000000
+writel 0xA9DA38 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DA3C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DA44 0x41c00000 #low_quality 24.000000
+writel 0xA9DA48 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DA4C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DA54 0x42700000 #high_quality 60.000000
+writel 0xA9DA58 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DA5C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DA64 0x42340000 #medium_quality 45.000000
+writel 0xA9DA68 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DA6C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DA74 0x41c00000 #low_quality 24.000000
+writel 0xA9DA78 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DA7C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DA84 0x42700000 #high_quality 60.000000
+writel 0xA9DA88 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DA8C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DA94 0x42340000 #medium_quality 45.000000
+writel 0xA9DA98 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DA9C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DAA4 0x41c00000 #low_quality 24.000000
+writel 0xA9DAA8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DAAC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DAB4 0x41400000 #high_quality 12.000000
+writel 0xA9DAB8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DABC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DAC4 0x41200000 #medium_quality 10.000000
+writel 0xA9DAC8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DACC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DAD4 0x41000000 #low_quality 8.000000
+writel 0xA9DAD8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DADC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DAE4 0x41700000 #high_quality 15.000000
+writel 0xA9DAE8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DAEC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DAF4 0x41400000 #medium_quality 12.000000
+writel 0xA9DAF8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DAFC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DB04 0x41200000 #low_quality 10.000000
+writel 0xA9DB08 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DB0C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DB14 0x41200000 #high_quality 10.000000
+writel 0xA9DB18 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DB1C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DB24 0x41000000 #medium_quality 8.000000
+writel 0xA9DB28 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DB2C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DB34 0x40c00000 #low_quality 6.000000
+writel 0xA9DB38 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DB3C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DB44 0x41700000 #high_quality 15.000000
+writel 0xA9DB48 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DB4C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DB54 0x41400000 #medium_quality 12.000000
+writel 0xA9DB58 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DB5C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DB64 0x41200000 #low_quality 10.000000
+writel 0xA9DB68 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DB6C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DB74 0x41480000 #high_quality 12.500000
+writel 0xA9DB78 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DB7C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DB84 0x41180000 #medium_quality 9.500000
+writel 0xA9DB88 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DB8C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DB94 0x40d00000 #low_quality 6.500000
+writel 0xA9DB98 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DB9C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DBA4 0x41700000 #high_quality 15.000000
+writel 0xA9DBA8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DBAC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DBB4 0x41400000 #medium_quality 12.000000
+writel 0xA9DBB8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DBBC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DBC4 0x41200000 #low_quality 10.000000
+writel 0xA9DBC8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DBCC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DBD4 0x41200000 #high_quality 10.000000
+writel 0xA9DBD8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DBDC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DBE4 0x41000000 #medium_quality 8.000000
+writel 0xA9DBE8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DBEC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DBF4 0x40c00000 #low_quality 6.000000
+writel 0xA9DBF8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DBFC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DC04 0x3f800000 #high_quality 1.000000
+writel 0xA9DC08 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DC0C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DC14 0x3f800000 #medium_quality 1.000000
+writel 0xA9DC18 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DC1C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DC24 0x3f800000 #low_quality 1.000000
+writel 0xA9DC28 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DC2C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DC34 0x3f800000 #high_quality 1.000000
+writel 0xA9DC38 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DC3C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DC44 0x3f800000 #medium_quality 1.000000
+writel 0xA9DC48 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DC4C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DC54 0x3f800000 #low_quality 1.000000
+writel 0xA9DC58 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DC5C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DC64 0x3f800000 #high_quality 1.000000
+writel 0xA9DC68 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DC6C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DC74 0x3f800000 #medium_quality 1.000000
+writel 0xA9DC78 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DC7C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DC84 0x3f800000 #low_quality 1.000000
+writel 0xA9DC88 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DC8C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DC94 0x3f800000 #high_quality 1.000000
+writel 0xA9DC98 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DC9C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DCA4 0x3f800000 #medium_quality 1.000000
+writel 0xA9DCA8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DCAC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DCB4 0x3f800000 #low_quality 1.000000
+writel 0xA9DCB8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DCBC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DCC4 0x3f333333 #high_quality 0.700000
+writel 0xA9DCC8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DCCC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DCD4 0x3f19999a #medium_quality 0.600000
+writel 0xA9DCD8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DCDC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DCE4 0x3f000000 #low_quality 0.500000
+writel 0xA9DCE8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DCEC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DCF4 0x42960000 #high_quality 75.000000
+writel 0xA9DCF8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DCFC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DD04 0x42700000 #medium_quality 60.000000
+writel 0xA9DD08 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DD0C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DD14 0x42340000 #low_quality 45.000000
+writel 0xA9DD18 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DD1C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DD24 0x42c80000 #high_quality 100.000000
+writel 0xA9DD28 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DD2C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DD34 0x42700000 #medium_quality 60.000000
+writel 0xA9DD38 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DD3C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DD44 0x42340000 #low_quality 45.000000
+writel 0xA9DD48 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DD4C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DD54 0x42100000 #high_quality 36.000000
+writel 0xA9DD58 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DD5C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DD64 0x41f00000 #medium_quality 30.000000
+writel 0xA9DD68 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DD6C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DD74 0x41c00000 #low_quality 24.000000
+writel 0xA9DD78 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DD7C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DD84 0x42960000 #high_quality 75.000000
+writel 0xA9DD88 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DD8C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DD94 0x42700000 #medium_quality 60.000000
+writel 0xA9DD98 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DD9C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DDA4 0x42340000 #low_quality 45.000000
+writel 0xA9DDA8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DDAC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DDB4 0x42c80000 #high_quality 100.000000
+writel 0xA9DDB8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DDBC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DDC4 0x42700000 #medium_quality 60.000000
+writel 0xA9DDC8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DDCC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DDD4 0x42340000 #low_quality 45.000000
+writel 0xA9DDD8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DDDC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DDE4 0x42700000 #high_quality 60.000000
+writel 0xA9DDE8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DDEC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DDF4 0x42340000 #medium_quality 45.000000
+writel 0xA9DDF8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DDFC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DE04 0x41c00000 #low_quality 24.000000
+writel 0xA9DE08 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DE0C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DE14 0x42700000 #high_quality 60.000000
+writel 0xA9DE18 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DE1C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DE24 0x42340000 #medium_quality 45.000000
+writel 0xA9DE28 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DE2C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DE34 0x41c00000 #low_quality 24.000000
+writel 0xA9DE38 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DE3C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DE44 0x42700000 #high_quality 60.000000
+writel 0xA9DE48 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DE4C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DE54 0x42340000 #medium_quality 45.000000
+writel 0xA9DE58 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DE5C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DE64 0x41c00000 #low_quality 24.000000
+writel 0xA9DE68 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DE6C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DE74 0x3f800000 #high_quality 1.000000
+writel 0xA9DE78 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DE7C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DE84 0x3f800000 #medium_quality 1.000000
+writel 0xA9DE88 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DE8C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DE94 0x3f800000 #low_quality 1.000000
+writel 0xA9DE98 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DE9C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DEA4 0x3f800000 #high_quality 1.000000
+writel 0xA9DEA8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DEAC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DEB4 0x3f800000 #medium_quality 1.000000
+writel 0xA9DEB8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DEBC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DEC4 0x3f800000 #low_quality 1.000000
+writel 0xA9DEC8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DECC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DED4 0x3f800000 #high_quality 1.000000
+writel 0xA9DED8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DEDC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DEE4 0x3f800000 #medium_quality 1.000000
+writel 0xA9DEE8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DEEC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DEF4 0x3f800000 #low_quality 1.000000
+writel 0xA9DEF8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DEFC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DF04 0x41900000 #high_quality 18.000000
+writel 0xA9DF08 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DF0C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DF14 0x41700000 #medium_quality 15.000000
+writel 0xA9DF18 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DF1C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DF24 0x41400000 #low_quality 12.000000
+writel 0xA9DF28 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DF2C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DF34 0x3f800000 #high_quality 1.000000
+writel 0xA9DF38 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DF3C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DF44 0x3f800000 #medium_quality 1.000000
+writel 0xA9DF48 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DF4C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DF54 0x3f800000 #low_quality 1.000000
+writel 0xA9DF58 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DF5C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DF64 0x40c00000 #high_quality 6.000000
+writel 0xA9DF68 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DF6C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DF74 0x40a00000 #medium_quality 5.000000
+writel 0xA9DF78 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DF7C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DF84 0x40800000 #low_quality 4.000000
+writel 0xA9DF88 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DF8C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DF94 0x40800000 #high_quality 4.000000
+writel 0xA9DF98 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DF9C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DFA4 0x40400000 #medium_quality 3.000000
+writel 0xA9DFA8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DFAC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DFB4 0x40000000 #low_quality 2.000000
+writel 0xA9DFB8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DFBC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DFC4 0x40800000 #high_quality 4.000000
+writel 0xA9DFC8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DFCC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9DFD4 0x40400000 #medium_quality 3.000000
+writel 0xA9DFD8 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9DFDC 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9DFE4 0x40000000 #low_quality 2.000000
+writel 0xA9DFE8 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9DFEC 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9DFF4 0x42700000 #high_quality 60.000000
+writel 0xA9DFF8 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9DFFC 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9E004 0x42340000 #medium_quality 45.000000
+writel 0xA9E008 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9E00C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9E014 0x41c00000 #low_quality 24.000000
+writel 0xA9E018 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9E01C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
+writel 0xA9E024 0x42960000 #high_quality 75.000000
+writel 0xA9E028 0x3f400000 #high_quality_low_mult 0.750000
+writel 0xA9E02C 0x3fa00000 #high_quality_high_mult 1.250000
+writel 0xA9E034 0x42700000 #medium_quality 60.000000
+writel 0xA9E038 0x3f400000 #medium_quality_low_mult 0.750000
+writel 0xA9E03C 0x3fa00000 #medium_quality_high_mult 1.250000
+writel 0xA9E044 0x42340000 #low_quality 45.000000
+writel 0xA9E048 0x3f400000 #low_quality_low_mult 0.750000
+writel 0xA9E04C 0x3fa00000 #low_quality_high_mult 1.250000
+
+
