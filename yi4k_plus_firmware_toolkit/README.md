@@ -11,6 +11,8 @@ It is based on the code reversed thanks to irungentoo, on top of which I added f
 * Added finding and dumping bitrate tables automatically
 * Automatically dump the correct addresses taking into account the RTOS vram base of 0x20000
 
+* TODO : Add bitrate resolution names correspondance
+
 
 #### How to unpack
 1) Download and unrar
