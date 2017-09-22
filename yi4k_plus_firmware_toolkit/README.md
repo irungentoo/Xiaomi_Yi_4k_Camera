@@ -1,15 +1,38 @@
-# Xiaomi Yi 4k Plus - firmware unpacker
+# Xiaomi Yi 4k Plus - Firmware Toolkit
 
 
-It is based on the code reversed thanks to irungentoo.
+It is based on the code reversed thanks to irungentoo, on top of which I added few things, and plan to add more, resulting in a complete fw toolkit.
 
 * Tested on Windows with VS 2015 -> should compile for any VS version/Windows version
 * Added simple console GUI
 * Added drag and drop support -> no more command line
 * Added proper names to unpacked binaries
+* Tested on 1.2.14/17 Beta and latest 1.3.11 Official Fw
+* Added finding and dumping bitrate tables automatically
+* Automatically dump the correct addresses taking into account the RTOS vram base of 0x20000
 
 
-I used IDA Pro to analyze RTOS bin
+#### How to unpack
+1) Download and unrar
+2) Create an empty folder in which unpack the firmware files
+3) Start the toolkit
+4) Press u = unpack
+5) Drag and drop firmware.bin and the unpack folder you created
+6) Press ENTER
+
+#### How to dump tables
+1) Follow how to unpack steps
+2) Press d = dump
+3) Drag and drop out_rtos.bin
+4) Press ENTER
+5) If everything went smooth, you will find a bitrate.txt near the toolkit.exe with **DEFAULT dumped values**
+
+
+
+
+
+
+#### I used IDA Pro to analyze RTOS bin
 
 	   1) Open bin in IDA Pro, choosing for RTOS the ARM processor (Little endian)
 	   2) Let it analyze the bin
