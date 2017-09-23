@@ -1,5 +1,3 @@
-t ants save_log on -> save internal camera log to sd
-
 ROM:005E7140 00000033 C Usage: t audioenc create [PriEncType] [SecEncType]
 ROM:005E7175 00000024 C                EncType: encode type               
 ROM:005E719D 0000001E C                       0 : AAC                     
