@@ -1,0 +1,8 @@
+App test command list:
+	 msg 
+	 key 
+	 jack 
+	 test 
+	 test_v10 
+	 mem 
+	 qtest 

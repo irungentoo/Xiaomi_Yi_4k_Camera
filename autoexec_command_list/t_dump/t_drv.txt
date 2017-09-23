@@ -1,0 +1,1 @@
+Usage: t drv [adc|cache|can|crypto|cvbs|dma|ddr|gpio|gdma|hdmi|hdmicec|i2c|ir|int|nftl|pll|poc|pwc|pwm|rtc|sd|spi|uart|timer|wdt]

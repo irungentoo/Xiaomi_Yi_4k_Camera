@@ -1,0 +1,25 @@
+Usage: t app key <key>
+Key list:
+	 up 
+	 up_rel 
+	 down 
+	 down_rel 
+	 left 
+	 left_rel 
+	 right 
+	 right_rel 
+	 zoomin 
+	 zoomin_rel 
+	 zoomout 
+	 zoomout_re l
+	 set 
+	 focus 
+	 focus_rel 
+	 shutter 
+	 shutter_rel 
+	 record 
+	 mode 
+	 menu 
+	 power 
+	 pc 
+	 del 

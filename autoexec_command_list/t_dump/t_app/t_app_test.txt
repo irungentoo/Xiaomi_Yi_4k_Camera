@@ -1,0 +1,53 @@
+Usage: t app test <option>
+Test option list:
+	 chg_res 
+	 chg_bitrate 
+	 chg_LCD 
+	 chg_mode 
+	 chg_app 
+	 chg_usbmode 
+	 graph
+	 freq 
+	 extenc [on | off | set_freq | sw] 
+	 texttrack [on | off | sw] 
+	 wakeup [alarm time(sec)] 
+	 bb 
+	 enc 
+	 wdt 
+	 vf [on | off | sw] 
+	 rtsp [on | off | show] 
+	 rec [av | v | show] 
+	 ps 
+	 idr 
+	 np 
+	 session [on | off] 
+	 usbdbg [start | 2uart | 2usb]
+	 record
+	 fdmo [0 | 1]	 dumpme1	 set_slowshutter [1 |0]
+	 video_rot [rotate index]
+	 sensor_flip [1:flip |0:normal]
+	 chg_stamp [1:video |0:photo] [0: off | 1: date | 2: time | 3: date_time]
+	 set_mwb [index]
+	 set_ev  [index]
+	 set_video_iso [index]
+	 set_still_iso [index_max] [index_min]
+	 set_qv [0:off 1:TV 2:LCD 3:both] [delay ms]
+	 set_brightness [1~99]
+	 onoff [0/1] [time_to_poweroff] [time_to_wakeup]
+	 set_rotate [1:on 0:off]
+	 set_meter [0:center 1:average 2:spot]
+	 set_dewarp [1:on 0:off]
+	 enable_superwarp [1:enable 0:disable]
+	 set_sharpenlevel [0:high 1:medium 2:low]
+	 set_denoiselevel [0:high 1:medium 2:low]
+	 lock_3a [index]
+	 unlock_3a
+	 save_wb
+	 show_wb
+	 hide_wb
+	 custom_wb
+	 set_video_sht [index]
+	 show_agc
+	 set_stillwarp [enable 1|0] [strength 0~65536]
+	 fix_iso [fix 1|0]
+	 bt_mode [1|2|3]

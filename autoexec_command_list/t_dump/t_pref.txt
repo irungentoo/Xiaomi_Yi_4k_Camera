@@ -1,0 +1,4 @@
+supported pref test commands(-2):
+	parse
+	download [default/current]|[path(c:\system.pref.download)]
+	upload [path(c:/c:\system.pref.upload)]

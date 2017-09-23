@@ -1,0 +1,20 @@
+Usage: t app test_v10 <option>
+Test option list:
+	 powersaving 
+	 sd_slow_write [threshold in ms]
+	 show_bs_buffer [threshold in MB]
+	 beep [play | set_vol]
+	 audio [read | write] [addr] [data]
+	 sharepv [init|en|dis]
+	 audio_effect channel [0|1]
+	              channel_config [config]
+	 dzoom [factorX] [factorY] [shiftX Pixel] [shiftY Pixel]
+	 set_enc_rot [rot_option]
+	 onoff [0/1] [time_to_poweroff] [time_to_wakeup]
+	 show_temp [0|1|2] (0:disable, 1:show always 2:show only when over threshold)
+	 show_bat  [0|1|2] (0:disable, 1:show always 2:show only when over threshold)
+	 video_tlapse [ 500 | 0 | 1 | 2 | 5 | 30 ]
+	 audio_liveview [0|1]
+	 pb_zoom [x] [y] [factor] (factor: 100~1000, 100=1x, 1000=10x)
+	 save_bin [y_addr] [uv_addr] [width] [height] [cache_invalidate] [filename]
+	 set_np [ntsc|pal]

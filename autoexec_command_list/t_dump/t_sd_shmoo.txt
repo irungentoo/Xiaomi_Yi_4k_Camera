@@ -1,0 +1,17 @@
+Usage: sd_shmoo reg_test all <sd0 | sd2>
+Usage: sd_shmoo reg_test [ClkBypass] [RxClkPol] <CmdBypass> <sd0 |sd2>
+Usage: sd_shmoo reg_set [DetailDelayReg] <sd0 | sd2>
+Usage: sd_shmoo maxclk_set [SDCardMaxClock]
+Usage: sd_shmoo rdlatency_set [rdlatency]
+Usage: sd_shmoo ds_set [2mA | 4mA | 8mA | 12mA] <sd0 | sd2>
+Usage: sd_shmoo show <sd0 | sd2> -- show the driver strength, max clock and detail delay
+Usage: sd_shmoo dump <sd0 | sd2> -- dump the register
+ ClkBypass - clock out byapss. 1:bypass 0:not bypass
+ RxClkPol - rx clock pol enable. 1:enable 0:not enable
+ DetailDelayReg - the sd phy control register.
+ SDCardMaxClock - the sd card max clock spped.
+ Example : sd_shmoo sd0 reg_test 0 1 sd0
+ Example : sd_shmoo sd0 reg_set 0x391 sd2
+ Example : sd_shmoo sd0 maxclk_set 100000000 sd0
+ Example : sd_shmoo sd0 dst_set 12mA sd0
+
