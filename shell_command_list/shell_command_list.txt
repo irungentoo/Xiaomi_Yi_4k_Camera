@@ -1,0 +1,47 @@
+Supported Shell Commands:
+
+Simple Commands:
+	cat		cd		chklowspd	chmod	
+	cleandir	clear		cp		crc32sum
+	date		dmesg		echo		false	
+	format		fwupdate	help		history	
+	loadbin		ls		md5sum		memtest	
+	mkdir		mv		ps		pwd	
+	randvrfy	readb		readl		readw	
+	reboot		rm		rmdir		savebin	
+	sha1sum		sleep		suspend		t	
+	thruput		time		true		ver	
+	vol		writeb		writel		writew	
+
+
+Compound Commands:
+
+Looping Constructs: Shell commands for iterative action.
+until
+	The syntax of the until command is:
+		until <test-command>; do <consequent-command>; done
+	Execute consequent-command as long as test-command has an exit status which is not zero.
+	The return status is the exit status of the last consequent-command executed, or zero if none was executed.
+while
+	The syntax of the while command is:
+		while <test-command>; do <consequent-command>; done
+	Execute consequent-command as long as test-command has an exit status of zero.
+	The return status is the exit status of the last consequent-command executed, or zero if none was executed.
+loop
+	The syntax of the loop command is:
+		loop <loop-count>; do <consequent-command>; done
+	Execute consequent-command loop-count times.
+	The return status is the exit status of the last consequent-command executed, or zero if none was executed.
+
+Conditional Constructs: Shell commands for conditional execution.
+if
+	The syntax of the if command is:
+		if <test-command>; then <consequent-command>; [else <alternate-consequent>;] fi
+	The test-command is executed, and if its return status is zero, the consequent-command is executed.
+	If 'else alternate-consequent' is present, and the final command in the if clause has a non-zero exit status,
+	then alternate-consequent is executed.
+	The return status is the exit status of the last command executed, or zero if no condition tested true.
+
+Special Parameters:
+$?	Expands to the exit status of the most recently executed command (used as <test-command>).
+
