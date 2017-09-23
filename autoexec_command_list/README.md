@@ -7,10 +7,12 @@ The provided ash file is the one used to generate the command list dump.
 * Rename it autoexec.ash
 * Power off and then on the camera
 
-|file|description|
-|shell_help_dump.txt|shell available commands|
-|t_dump\*|all t commands|
-|t_dump\t_app\*| all t app subcommands|
+| File                      | Description              |
+|---------------------------|--------------------------|
+| commands_dump_autoexec.ash| all t app subcommands    |
+| shell_help_dump.txt       | shell available commands |
+| t_dump\*                  | all t commands           |
+| t_dump\t_app\*            | all t app subcommands    |
 
 
 Right now, the most interesting commands are in t - t ants - t app - t app test - t app test_v10
