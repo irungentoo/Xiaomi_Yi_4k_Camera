@@ -1,3 +1,5 @@
+t ants save_log on : dumps the RTOS internal log to SD. Add the command to autoexec, then start the camera and power it off. On the next startup it will generate the logs and keep generating even if you remove the autoexec. In order to stop it, use off command, start the camera and power it off. On the next statup it wont generate them 
+
 ROM:005E7140 00000033 C Usage: t audioenc create [PriEncType] [SecEncType]
 ROM:005E7175 00000024 C                EncType: encode type               
 ROM:005E719D 0000001E C                       0 : AAC                     
