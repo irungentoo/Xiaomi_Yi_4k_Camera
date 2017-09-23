@@ -7,7 +7,7 @@ I would like this to be a comprehensive repository for all Yi 4K Plus customizat
 
 - [Bitrate Mod](bitrate_mod) : Everything needed in order to patch bitrates and resolutions
 
-- [Autoexec Commands](autoexec_commands) : Updated list of firmware/rtos/shell commands to be used in autoexec.ash
+- [Autoexec Commands](autoexec_commands_list) : Updated list of firmware/rtos/shell commands to be used in autoexec.ash
 
 - [Firmware Toolkit](yi4k_plus_firmware_toolkit) : Based on irungentoo unpacker first version, added few things such as table dumpers and made it easier to use, compiled verion in [Releases](releases). More informations and how to use in  its folder readme.
 
