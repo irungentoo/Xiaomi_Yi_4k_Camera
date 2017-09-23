@@ -6,4 +6,4 @@ If you want to try, the file autoexec.ash was used to dump them.
 
 Some of them looks interesting, such as loadbin :)
 
-There are also instructions on how to perform loops in scripts
+There are also instructions on how to perform loops and branch conditions in scripts
