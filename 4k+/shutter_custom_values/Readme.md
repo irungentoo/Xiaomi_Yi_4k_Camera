@@ -1,4 +1,4 @@
-#Yi 4k+ Custom Shutter Values 
+# Yi 4k+ Custom Shutter Values
 
 This mod can be used to set custom shutter values to the shutter menu options.
 
