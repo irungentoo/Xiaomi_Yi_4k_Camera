@@ -16,3 +16,8 @@ Currently the increased modes are:
 1080p 120fps -> 150fps.
 720p 240fps -> 300fps (Note: camera crashes after about 12 seconds when recording in this mode)
 ```
+
+Example videos (youtube):
+[1080p 150fps](https://www.youtube.com/watch?v=N6kton9GyFk)
+
+[720p 300fps](https://www.youtube.com/watch?v=UlJ7IypaMBs)
