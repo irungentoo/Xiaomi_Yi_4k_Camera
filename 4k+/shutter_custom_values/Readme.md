@@ -23,7 +23,7 @@ And then you would convert it to hex and get: 0x574
 
 Which gives you ```writel 0xA596C4 0x574 #Exposure 1396```
 
-Note that the addressses (ex: 0xA596C4) in this file are provided as an example 
+Note that the addresses (ex: 0xA596C4) in this file are provided as an example 
 only and change every firmware version. For the right address for your firmware, 
 see the autoexec.ash in the folder corresponding to it.
 
