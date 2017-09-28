@@ -11,4 +11,8 @@ bottleneck once the sensor is overclocked seems to be the dsp, core or memory
 which could likely be overclocked at the expense of battery life. I just don't 
 know how to overclock them yet.
 
-Currently the only increased mode is 1080p 120fps -> 150fps.
+Currently the increased modes are: 
+```
+1080p 120fps -> 150fps.
+720p 240fps -> 300fps (Note: camera crashes after about 12 seconds when recording in this mode)
+```
