@@ -1,0 +1,16 @@
+Usage: pll debug <pll_name> ctrl <pll_ctrl>          : set parameter of the specified pll
+       pll debug <pll_name> ctrl2 <pll_ctrl2>        : set parameter of the specified pll
+       pll debug <pll_name> ctrl3 <pll_ctrl3>        : set parameter of the specified pll
+       pll debug <pll_name> prediv <pll_prescaler>   : set parameter of the specified pll
+       pll debug <pll_name> postdiv <pll_postscaler> : set parameter of the specified pll
+       pll debug <pll_name> frac <pll_fraction>      : set parameter of the specified pll
+Usage: pll stat                           : show main clock frequencies
+       pll dump [all|<pll_name>]          : show detailed information of the specified pll
+       pll set <clock_name> <frequency>   : set clock frequency of the specifed clock source
+       <pll_name>
+       audio,    core,     cortex,   ddr,      enet,     idsp,
+       hdmi,     hdmi2,    mphy,     sd,       sensor,   video2,
+       vo_mixer
+       <clock_name>
+       gclk_au,        gclk_core,      gclk_idsp,      xx_clk_si,      xx_clk_si_1
+       gclk_vo_mixer,  gclk_vo_lcd,    gclk_vo_tv,     pll_out_sd

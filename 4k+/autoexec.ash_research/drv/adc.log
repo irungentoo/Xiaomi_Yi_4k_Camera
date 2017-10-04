@@ -1,0 +1,7 @@
+Usage: adc [start|stop|get|unittest|fifotest|oneshot] <...>
+       adc unittest                : Sanity testing
+       adc start                   : Start adc conversion
+       adc stop                    : Stop adc conversion
+       adc get [thermal|<channel>] : Get converted data
+       adc fifotest <size>         : ADC Fifo test
+       adc oneshot <channel> : Read adc data under one-shot mode

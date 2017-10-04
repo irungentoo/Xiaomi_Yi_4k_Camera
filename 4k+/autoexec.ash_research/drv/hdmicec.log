@@ -1,0 +1,4 @@
+Usage:
+ hdmicec [on|off]:            Start/Stop CEC module
+ hdmicec monitor [on|off]:    Start/Stop CEC monitor task
+ hdmicec msg <options>:       Single message test

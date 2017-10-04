@@ -1,0 +1,22 @@
+Usage: hdmi [mode|phy|csc|info|sinkinfo|dumpedid] <...>
+       hdmi mode <VIDEO_ID_CODE> ([rgb|422|444] [8|10|12]):  Change video resolution and color space
+         VIDEO_ID_CODE: Please reference CEA-861-F
+         rgb: RGB,           422: YCbCr 4:2:2,   444: YCbCr 4:4:4
+         8: 24-bit,          10: 30-bit,         12: 36-bit
+       hdmi csc <CSC_MATRIX_TYPE> <CSC_MATRIX_ID:[0-8]>:  Use different hdmi csc martix (number:0-8)
+         CSC_MATRIX_TYPE
+         0: BT601, RGB<->YCbCr conversion
+         1: BT709, RGB<->YCbCr conversion
+         2: IQ tuning
+       hdmi phy <SINK_CURRENT:[0-63]> <1st-tap Pre-Emphasis[0-15]> <2nd-tap Pre-Emphasis [0-7]> <3rd-tap Pre-Emphasis[0-7]>:  Electrical tuning
+         SINK_CURRENT      
+         0:  6 mA          
+         16: 10.725 mA     
+         32: 13.725 mA     
+         48: 16.725 mA     
+         63: 21.2255 mA    
+       hdmi info: Show current setting
+       hdmi sinkinfo: Show sink supported formats
+       hdmi dumpedid <blocknum> <filename>: Dump edid blocks to certain file
+          ex: t drv hdmi dumpedid 2 c:\test.bin , this will dump 2 blocks edid to file test.bin
+       hdmi progcts <on/off>: Audio cts programmble on/off

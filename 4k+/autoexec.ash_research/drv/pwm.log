@@ -1,0 +1,6 @@
+Usage: pwm [start|stop|status|unittest] <...>
+       pwm start <channel> <freq> <OnTicks> <OffTicks> : start pwm <channel> in <freq>Hz
+       pwm stop <channel>                              : stop pwm <channel> 
+       pwm status <channel>                            : get pwm status of <channel>
+       channel_num's range is 0~3, 4 for 0/1 Complementary, 5 for 2/3 Complementary
+       PWM rate = freq / (OnTicks + OffTicks)

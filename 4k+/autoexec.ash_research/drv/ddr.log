@@ -1,0 +1,9 @@
+Usage: ddr dump [all|timing]
+       ddr phase <edge0> <edge1>
+       ddr shmoo [sync|read|write] [+|-] [time(ms)]
+          How to run DDR quick shmoo :
+           - 1. Type "sync + 1000" : Increase sync value and wait 1000ms, shmoo the sync byte one by one until system hang, ex: 20->00->01->02
+           - 2. Type "sync - 1000" : Decrease sync value and wait 1000ms, shmoo the sync byte one by one until system hang, ex: 20->21->22->23
+           - 3. Repeat the above procedures on Read and Write phase.
+           - 4. Collect the workable ranges of sync, read and write byte.
+       ddr set [sync|read|write] <value>

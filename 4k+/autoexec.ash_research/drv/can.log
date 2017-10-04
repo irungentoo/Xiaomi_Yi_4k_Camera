@@ -1,0 +1,28 @@
+ can config -[tq|loopback|autoresponse|listen|filter|fdtq] Argus...
+   -tq [Seq2] [Seq1] [SJW] [Prescaler]  : set up the time-qunta for CAN 2.0
+   -loopback [0|1|2]  : Normal mode(0)/Inside-loopback mode(1)/Outside-loopback mode(2)
+   -autoresponse [0|1]: Enable(1)/Disable(0) auto-response mode
+   -listen [0|1]: Enable(1)/Disable(0) listen mode
+   -fdtq [Seq2] [Seq1] [SJW] [Prescaler]: Set up the CAN FD time-qunta
+   -filter [id] [id_mask] : Filter CAN messages
+     [id]: the ID that is going to match
+     [id_mask]: the bit mask to filter out a set of IDs
+
+ can enable : Enable CANC
+
+ can read : Create CAN 2.0/CAN FD receiving tasks
+
+ can write [times] [delay] [id] [extention] [rtr] [priority] [length] [data] : Write CAN messages
+   [times]: number of messages to write, set to -1 to infinitly write message
+   [delay]: the delay time between two messages (ms)
+   [id]: message ID
+   [extention]: set to 1 to enable extented ID
+   [rtr]: set to 1 to make a RTR message
+   [priority]: the message priority
+   [length]: the data length
+   [data]: the message data
+
+ can randwrite [times] [delay] : Write random generated CAN messages
+   [times]: number of messages to write, set to -1 to infinitly write message
+   [delay]: the delay time between two messages (ms)
+

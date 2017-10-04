@@ -1,0 +1,10 @@
+Usage: nftl [untitest|thruput|read|write] <...>
+       nftl unittest                                  : Sanity testing for all function
+       nftl thruput <sector_num>                      : Testing for NFTL thruput
+       nftl init <ID>  
+       nftl read <part_id> <rand|inc|dec|dump|tocard> <sector_idx> <sector_num> <file_path> : Read <sector_num> sectors from <sector_idx>
+       nftl write <part_id> <rand|inc|dec|fromcard> <sector_idx> <sector_num> <file_path>: Write <sector_num> sectors from <sector_idx>
+       part_id is target partition to read/write, EX. stagA stagB
+       sector_num is sector count to read/write
+       sector_idx is sector index to read/write start address
+       file_path is the filename with patch when specified tocard or fromcard

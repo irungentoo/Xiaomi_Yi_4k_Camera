@@ -1,0 +1,25 @@
+t drv adc > c:\adc.log
+t drv cache > c:\cache.log
+t drv can > c:\can.log
+t drv crypto > c:\crypto.log
+t drv cvbs > c:\cvbs.log
+t drv dma > c:\dma.log
+t drv ddr > c:\ddr.log
+t drv gpio > c:\gpio.log
+t drv gdma > c:\gdma.log
+t drv hdmi > c:\hdmi.log
+t drv hdmicec > c:\hdmicec.log
+t drv i2c > c:\i2c.log
+t drv ir > c:\ir.log
+t drv int > c:\int.log
+t drv nftl > c:\nftl.log
+t drv pll debug > c:\pll.log
+t drv poc > c:\poc.log
+t drv pwc > c:\pwc.log
+t drv pwm > c:\pwm.log
+t drv rtc > c:\rtc.log
+t drv sd > c:\sd.log
+t drv spi > c:\spi.log
+t drv uart > c:\uart.log
+t drv timer > c:\timer.log
+t drv wdt > c:\wdt.log

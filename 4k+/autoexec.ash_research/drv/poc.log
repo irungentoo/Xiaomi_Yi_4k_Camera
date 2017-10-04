@@ -1,0 +1,23 @@
+Power-On Configuration:
+POC[31:0]  = 0x708F009E
+POC[0]     = b'0   : Ethernet functions are disabled
+POC[3:1]   = b'111 : VDSP 216 MHz, IDSP 216 MHz, DRAM 432 MHz, Cortex 432 MHz
+POC[6:4]   = b'001 : ROM code for NAND boot
+POC[7]     = b'1   : USB PHY uses 48MHz reference clock as input
+POC[8]     = b'0   : Do not bypass boot ROM
+POC[9]     = b'0   : PLL frequency makes a quantum jump at power-on
+POC[10]    = b'0   : ROM code for non-USB boot
+POC[12:11] = b'00  : Normal Sources
+POC[13]    = b'0   : External clock source is 24 or 48 MHz (depends on POC[30])
+POC[14]    = b'1   : NAND boot with shorter NAND flash component read cycle time
+POC[15]    = b'0   : NAND flash main area to spare area ratio is (32:1)
+POC[16]    = b'0   : NAND boot without BCH ECC correction
+POC[17]    = b'0   : NAND boot without read confirm command
+POC[18]    = b'0   : NAND flash is 512 bytes per page
+POC[19]    = b'0   : NAND boot with 2KB boot code
+POC[20]    = b'0   : Ethernet PHY acts as RGMII
+POC[21]    = b'0   : Boot Cortex-A53 in AArch64 state (64-bit mode)
+POC[23]    = b'1   : Peripherals (USB host, SD, NAND flash) use gclk_core
+POC[29:28] = b'11  : USB PHY acts as a device
+POC[30]    = b'1   : External clock source is 48 MHz (POC[13] shall not be set at same time)
+POC[31]    = b'0   : This config is from external pins

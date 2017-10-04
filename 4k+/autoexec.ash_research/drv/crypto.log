@@ -1,0 +1,3 @@
+Usage: crypto [unittest]
+       crypto [chan] [aes|des] [key] [string]
+       crypto [chan] [md5|sha1] [string]

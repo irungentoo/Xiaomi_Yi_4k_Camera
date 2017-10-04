@@ -1,0 +1,3 @@
+ wdt [trigger_time]: system will be reset after the specified trigger_time seconds, 
+                     unless user press any key to stop the reset event 
+ E.g.: wdt 10

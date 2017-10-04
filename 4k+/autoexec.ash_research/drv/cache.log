@@ -1,0 +1,7 @@
+Usage: cache [clean|invalid|flush|unittest|speedtest]
+       cache unittest              : Sanity testing
+       cache clean <addr> <size>   : Data cache clean
+       cache invalid <addr> <size> : Data cache invalidate
+       cache flush <addr> <size>   : Data cache flush
+       cache speedtest <TestSize>  : Evaluate cache performance
+EX:    cache flush 0x10000000 0x200

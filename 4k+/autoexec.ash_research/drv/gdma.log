@@ -1,0 +1,15 @@
+Usage: gdma init : GDMA initialization
+       gdma [test|unittest|thruput] <...>
+       gdma thruput         : Show off thruput info
+       gdma unittest        : Sanity testing
+       gdma test <test_id> : Single function test
+       <test_id>:
+       1:   Test Gdma LinearTransfer
+       2:   Test Gdma BlockTransfer
+       3:   Test Gdma ColorKeying
+       4:   Test Gdma BlockCompositeWithAlphaPreMultiplied
+       5:   Test Gdma BlockCompositeWithAlphaNonPreMultiplied
+ Ex:   gdma test [1] + <size>
+       gdma test [2|3|4|5] + <width> <height> <pitch>
+       gdma thruput + <DataSize>
+       gdma unittest

@@ -1,0 +1,28 @@
+!!!Please make sure uart channel is configured. !!!
+Usage: uart config {-[ch|br|db|pb|sb|fc] value}
+          -ch: channel number (DO NOT set to the current using UART channel)
+          -rate: baudrate
+          -data: number of data bits
+               0: 5 bits per data
+               1: 6 bits per data
+               2: 7 bits per data
+               3: 8 bits per data
+          -parity: parity bit check
+               0: no parity bit
+               1: even parity bit
+               2: odd parity bit
+          -stop: number of stop bits
+               0: 1 stop bit
+               1: 1.5 stop bits
+               2: 2 stop bits
+          -flow: flow control
+               0: no flow control
+               1: hardware flow control
+               2: software flow control
+       uart send: create a send task on given channel
+       uart recv: create a receive task on given channel
+       uart looptest [channel]: self-loop UART test
+Note: The self-loop test is used to verify the UART transfer within the same UART channel. Before doing the test,
+      please link the UART Tx and Rx pins together, and carefully specify and configurate the UART channel. The
+      self-loop test will create a send task and a receive task on the given channel. Then, do the comparion to
+      check if the recived data is the same as the sent test pattern (0x5a).

@@ -1,0 +1,3 @@
+Usage: ir init        : Initialize IR driver
+       ir start       : Start IR monitor task
+       ir stop        : Stop IR monitor task

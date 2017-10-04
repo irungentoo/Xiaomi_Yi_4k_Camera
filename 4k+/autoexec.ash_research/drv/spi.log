@@ -1,0 +1,18 @@
+Usage: spi config {-[ch|sid|mode|pol|dfs|baud|order|dma] value}   - transfer configuration
+       spi transfer <count> {trx(0)|tx(1)|rx(2)}                  - transfer pattern values
+       spi [msb|lsb] data0 data1 ...                              - transfer specified data
+
+Options:
+  -ch   : Channel ID. 0-1: Master; 2: Slave
+  -sid  : Slave ID
+  -pol  : Polarity of slave select pin. 0: Low-active; 1: High-active
+  -baud : Transfer baud-rate in Hz
+  -delay: The delay time to begin data transfer after enabling an slave
+  -dfs  : Data frame size
+  -dma  : DMA mode. 0: Do not use DMA mode; 1: Force DMA mode
+  -order: Transfer order. 0: MSB first; 1: LSB first
+  -mode : SPI protocol
+     0: 1st edge is rising, sampling on rising   (CPOL = 0, CPHA = 0)
+     1: 1st edge is rising, sampling on falling  (CPOL = 0, CPHA = 1)
+     2: 1st edge is falling, sampling on falling (CPOL = 1, CPHA = 0)
+     3: 1st edge is falling, sampling on rising  (CPOL = 1, CPHA = 1)

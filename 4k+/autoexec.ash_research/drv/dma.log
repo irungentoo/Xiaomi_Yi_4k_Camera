@@ -1,0 +1,4 @@
+Usage: dma <channel> [unittest] <...>
+       dma unittest                                : Sanity testing for all channels
+       dma <channel> thruput                      : Determine DMA thruput and compare to memcpy
+       dma <channel> <src_addr> <dst_addr> <size> : Transfer continous bytes from <src_addr> to <dst_addr>

@@ -1,0 +1,5 @@
+Usage: timer [systimer|show] <...>
+       timer ori <count_calue>                      : Testing for original timer
+       timer systimer <freq_num> <tick_count> [I|P] : Testing for system timer
+       timer show                                   : Show off timer test result
+       I is testing with interrupt ,P is testing with polling 

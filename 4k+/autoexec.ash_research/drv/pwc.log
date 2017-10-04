@@ -1,0 +1,5 @@
+Usage: pwc get status - get PWC Status
+       pwc set status <value> - set PWC Status
+       pwc delaytest [count] - Show PWC toggle delay time
+       pwc wakeup <alarm time(sec)> - PWC wake up by alarm in sec
+       pwc powerdown - Set to power down mode

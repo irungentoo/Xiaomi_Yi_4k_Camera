@@ -1,0 +1,4 @@
+Usage: int <int_id> type [IRQ|FIQ] - set interrupt type
+       int <int_id> [enable|disable] - set interrupt enable or disable
+       int <int_id> sense [H|L|R|F|B] - set interrupt sensitive(HIGH_LEVEL|LOW_LEVEL|RISING_EDGE|FALLING_EDGE|BOTH_EDGE)
+       int <int_id> core [0|1|2|3] - set interrupt target core
