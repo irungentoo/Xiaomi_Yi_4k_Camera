@@ -23,11 +23,10 @@ out_1.bin is the bootloader.
 
 out_2.bin is the firmware updater.
 
-out_4.bin is the rtos and can be dissassembled with (-m armv5 is just because 
-that's the latest my objdump supports, 0x00020000 is because that's where 
+out_4.bin is the rtos and can be dissassembled with (0x00020000 is because that's where 
 that file gets loaded in memory):
 
-```arm-none-eabi-objdump -m armv5 -b binary --adjust-vma=0x00020000 -D out_4.bin```
+```arm-none-eabi-objdump -m arm_any -b binary --adjust-vma=0x00020000 -D out_4.bin```
 
 out_5.bin contains dsp stuff.
 
