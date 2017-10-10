@@ -6,7 +6,7 @@ It is based on the code reversed thanks to irungentoo, on top of which I added f
 <details>
   <summary>CHANGELOG</summary>
   <p>
-[v1.1]* Tested on Windows with VS 2015 -> should compile for any VS version/Windows version
+* Tested on Windows with VS 2015 -> should compile for any VS version/Windows version
 * Added simple console GUI
 * Added drag and drop support -> no more command line
 * Added proper names to unpacked binaries
