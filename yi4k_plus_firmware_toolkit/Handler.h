@@ -30,7 +30,7 @@ private:
 	PCHAR CHandler::get_bin_name(int iCounter);
 	VOID CHandler::ParseDragDrop(char mode);
 	BOOL CHandler::UnpackFirmware(char mode);
-	BOOL CHandler::DumpTables(char mode);
+	BOOL CHandler::DumpTables(char mode, char debug);
 public:
 	BOOL loop = TRUE;
 	

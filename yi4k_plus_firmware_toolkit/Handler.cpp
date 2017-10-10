@@ -189,6 +189,7 @@ VOID CHandler::Log(char* filename, char* fmt, ...)
 	output.close();
 }
 
+
 std::string CHandler::float_to_hex(float fn)
 {
 	union ufloat
@@ -206,7 +207,7 @@ std::string CHandler::float_to_hex(float fn)
 	return ss.str();
 }
 
-BOOL CHandler::DumpTables(char mode)
+BOOL CHandler::DumpTables(char mode, char debug)
 {
 	PVOID source = NULL;
 	size_t newLen = 0;
@@ -287,15 +288,20 @@ BOOL CHandler::DumpTables(char mode)
 	}
 
 	
-	auto CorrectAddress = [&](DWORD address)
+	auto Addr2RTOS = [&](DWORD address)
 	{
 		return 0x20000 + address - (DWORD)source;
+	};
+
+	auto RTOS2Addr = [&](DWORD address)
+	{
+		return (DWORD)source + address - 0x20000;
 	};
 
 
 	if (bFound)
 	{
-		std::cout << "[+] Found video bitrate table base at 0x" << std::hex << CorrectAddress(video_bitrate_table) << " \n";
+		std::cout << "[+] Found video bitrate table base at 0x" << std::hex << Addr2RTOS(video_bitrate_table) << " \n";
 
 		CBitrate* pBitrate = (CBitrate*)video_bitrate_table;
 		CBitrate_setting* pBitrate_setting = pBitrate->bitrate_table;
@@ -305,17 +311,17 @@ BOOL CHandler::DumpTables(char mode)
 			if (!pBitrate_setting)
 				break;
 
-			Log("bitrate_table_dump.txt", "writel 0x%lX %s #high_quality %f", CorrectAddress((DWORD)&pBitrate_setting->high_quality), float_to_hex(pBitrate_setting->high_quality).c_str(), pBitrate_setting->high_quality);
-			Log("bitrate_table_dump.txt", "writel 0x%lX %s #high_quality_low_mult %f", CorrectAddress((DWORD)&pBitrate_setting->high_low_mult), float_to_hex(pBitrate_setting->high_low_mult).c_str(), pBitrate_setting->high_low_mult);
-			Log("bitrate_table_dump.txt", "writel 0x%lX %s #high_quality_high_mult %f", CorrectAddress((DWORD)&pBitrate_setting->high_high_mult), float_to_hex(pBitrate_setting->high_high_mult).c_str(), pBitrate_setting->high_high_mult);
+			Log("video_bitrate_table_dump.txt", "writel 0x%lX %s #high_quality %f", Addr2RTOS((DWORD)&pBitrate_setting->high_quality), float_to_hex(pBitrate_setting->high_quality).c_str(), pBitrate_setting->high_quality);
+			Log("video_bitrate_table_dump.txt", "writel 0x%lX %s #high_quality_low_mult %f", Addr2RTOS((DWORD)&pBitrate_setting->high_low_mult), float_to_hex(pBitrate_setting->high_low_mult).c_str(), pBitrate_setting->high_low_mult);
+			Log("video_bitrate_table_dump.txt", "writel 0x%lX %s #high_quality_high_mult %f", Addr2RTOS((DWORD)&pBitrate_setting->high_high_mult), float_to_hex(pBitrate_setting->high_high_mult).c_str(), pBitrate_setting->high_high_mult);
 
-			Log("bitrate_table_dump.txt", "writel 0x%lX %s #medium_quality %f", CorrectAddress((DWORD)&pBitrate_setting->medium_quality), float_to_hex(pBitrate_setting->medium_quality).c_str(), pBitrate_setting->medium_quality);
-			Log("bitrate_table_dump.txt", "writel 0x%lX %s #medium_quality_low_mult %f", CorrectAddress((DWORD)&pBitrate_setting->medium_low_mult), float_to_hex(pBitrate_setting->medium_low_mult).c_str(), pBitrate_setting->medium_low_mult);
-			Log("bitrate_table_dump.txt", "writel 0x%lX %s #medium_quality_high_mult %f", CorrectAddress((DWORD)&pBitrate_setting->medium_high_mult), float_to_hex(pBitrate_setting->medium_high_mult).c_str(), pBitrate_setting->medium_high_mult);
+			Log("video_bitrate_table_dump.txt", "writel 0x%lX %s #medium_quality %f", Addr2RTOS((DWORD)&pBitrate_setting->medium_quality), float_to_hex(pBitrate_setting->medium_quality).c_str(), pBitrate_setting->medium_quality);
+			Log("video_bitrate_table_dump.txt", "writel 0x%lX %s #medium_quality_low_mult %f", Addr2RTOS((DWORD)&pBitrate_setting->medium_low_mult), float_to_hex(pBitrate_setting->medium_low_mult).c_str(), pBitrate_setting->medium_low_mult);
+			Log("video_bitrate_table_dump.txt", "writel 0x%lX %s #medium_quality_high_mult %f", Addr2RTOS((DWORD)&pBitrate_setting->medium_high_mult), float_to_hex(pBitrate_setting->medium_high_mult).c_str(), pBitrate_setting->medium_high_mult);
 
-			Log("bitrate_table_dump.txt", "writel 0x%lX %s #low_quality %f", CorrectAddress((DWORD)&pBitrate_setting->low_quality), float_to_hex(pBitrate_setting->low_quality).c_str(), pBitrate_setting->low_quality);
-			Log("bitrate_table_dump.txt", "writel 0x%lX %s #low_quality_low_mult %f", CorrectAddress((DWORD)&pBitrate_setting->low_low_mult), float_to_hex(pBitrate_setting->low_low_mult).c_str(), pBitrate_setting->low_low_mult);
-			Log("bitrate_table_dump.txt", "writel 0x%lX %s #low_quality_high_mult %f\n\n", CorrectAddress((DWORD)&pBitrate_setting->low_high_mult), float_to_hex(pBitrate_setting->low_high_mult).c_str(), pBitrate_setting->low_high_mult);
+			Log("video_bitrate_table_dump.txt", "writel 0x%lX %s #low_quality %f", Addr2RTOS((DWORD)&pBitrate_setting->low_quality), float_to_hex(pBitrate_setting->low_quality).c_str(), pBitrate_setting->low_quality);
+			Log("video_bitrate_table_dump.txt", "writel 0x%lX %s #low_quality_low_mult %f", Addr2RTOS((DWORD)&pBitrate_setting->low_low_mult), float_to_hex(pBitrate_setting->low_low_mult).c_str(), pBitrate_setting->low_low_mult);
+			Log("video_bitrate_table_dump.txt", "writel 0x%lX %s #low_quality_high_mult %f\n\n", Addr2RTOS((DWORD)&pBitrate_setting->low_high_mult), float_to_hex(pBitrate_setting->low_high_mult).c_str(), pBitrate_setting->low_high_mult);
 			
 			if (pBitrate_setting->is_end != 0)
 				break;
@@ -328,9 +334,55 @@ BOOL CHandler::DumpTables(char mode)
 	DWORD audio_bitrate = FindPattern((DWORD)source, newLen, (PBYTE)"\x00\xF4\x01\x00\x00\x00\x00\x00\x10\x00\x00\x00\x80\xBB", "xxxxxxxxxxxxx");
 
 	if (audio_bitrate)
-		std::cout << "[+] Found audio bitrate address at 0x" << std::hex << CorrectAddress(audio_bitrate) << " \n";
+	{
+		std::cout << "[+] Found audio bitrate address at 0x" << std::hex << Addr2RTOS(audio_bitrate) << " \n";
+
+		Log("audio_bitrate_dump.txt", "writel 0x%lX 0x%lX #%d\n\n", Addr2RTOS(audio_bitrate), *(DWORD*)audio_bitrate, *(DWORD*)audio_bitrate);
+	}
 	else 
 		std::cout << "failed to find audio bitrate address!\n";
+
+	//=====DEBUG STUFFS====THIS SECTION IS A BIT DIFFICULT TO UNDERSTAND
+
+	if (debug == 'y')
+	{
+		std::cout << "Dumping debug stuffs...\n";
+
+
+		DWORD names_current = 0;
+		DWORD names_found = 0;
+		BOOL bNames_found = FALSE;
+		while (true)
+		{
+			DWORD names_found = FindPattern((DWORD)source + names_current, newLen - names_current, (PBYTE)"\x44\x0F\x09\xE3\x99\x99\x99\x99\x99\x99\x99\x99\x99\x99\x99\x99\x5C\x00\x40\xE3\x99\x99\x99\xEB", "xxxx????????????xxxx???x");
+
+			if (names_found)
+			{
+				bNames_found = TRUE;
+
+				names_found += 0x4;
+				BOOL bType = *(BYTE*)(names_found + 0x9) == 0x10;
+
+				BYTE f = *(BYTE*)(names_found + 0x02) * 0x10;
+				BYTE s = *(BYTE*)(names_found + 0x01) - 0x10;
+
+				DWORD rtos_function_name = bType ? (0x00 << 24) | (*(BYTE*)(names_found + 0x8) << 16) | ((f + s) << 8) | *(BYTE*)names_found :
+					(0x00 << 24) | (*(BYTE*)(names_found + 0x4) << 16) | ((f + s) << 8) | *(BYTE*)names_found;
+
+				if (RTOS2Addr(rtos_function_name) > (DWORD)names_current && RTOS2Addr(rtos_function_name) < ((DWORD)names_current + newLen))
+				{
+					Log("function_names.txt", "K_ASSERT found @ 0x%lX -> 0x%lX -> parent K_ASSERT function name :%s", Addr2RTOS(names_found - 0x4), rtos_function_name, RTOS2Addr(rtos_function_name));
+				}
+			}
+			else break;
+
+			names_current = names_found - (DWORD)source;
+		}
+
+		if(bNames_found)
+			std::cout << "[+] Found and dumped function names list! \n";		
+	}
+	//=====DEBUG STUFFS====THIS SECTION IS A BIT DIFFICULT TO UNDERSTAND
 
 	delete(source);
 
@@ -341,6 +393,7 @@ BOOL CHandler::DumpTables(char mode)
 BOOL CHandler::DoRequest(std::string& mode)
 {
 	BOOL bReturn = FALSE;
+	std::string debug_stuff;
 
 	ParseDragDrop(mode[0]);
 
@@ -352,7 +405,9 @@ BOOL CHandler::DoRequest(std::string& mode)
 		break;
 
 	case MODE_DUMP:
-		bReturn = DumpTables(mode[0]);
+		std::cout << "\n\nDo you want to dump debug stuff? y : yes - n : no\n";		
+		std::getline(std::cin, debug_stuff);
+		bReturn = DumpTables(mode[0], debug_stuff[0]);
 		break;
 
 	case MODE_EXIT:
