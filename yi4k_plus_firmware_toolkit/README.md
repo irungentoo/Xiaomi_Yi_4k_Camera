@@ -21,8 +21,8 @@ It is based on the code reversed thanks to irungentoo, on top of which I added f
 
 
 
-
-* TODO : Add bitrate resolution names correspondance
+TODO : 
+* Add bitrate resolution names correspondance
 
 
 #### How to unpack
