@@ -3,13 +3,20 @@
 
 It is based on the code reversed thanks to irungentoo, on top of which I added few things, and plan to add more, resulting in a complete fw toolkit.
 
-* Tested on Windows with VS 2015 -> should compile for any VS version/Windows version
+<details>
+  <summary>CHANGELOG</summary>
+  <p>
+[v1.1]* Tested on Windows with VS 2015 -> should compile for any VS version/Windows version
 * Added simple console GUI
 * Added drag and drop support -> no more command line
 * Added proper names to unpacked binaries
 * Tested on 1.2.14/17 Beta and latest 1.3.11 Official Fw
 * Added finding and dumping bitrate tables automatically
 * Automatically dump the correct addresses taking into account the RTOS vram base of 0x20000
+
+</p>
+</details>
+
 
 * TODO : Add bitrate resolution names correspondance
 
@@ -29,14 +36,6 @@ It is based on the code reversed thanks to irungentoo, on top of which I added f
 4) Press ENTER
 5) If everything went smooth, you will find the .txt files with dumped tables/debug stuffs [dumped tables are with default values]
 
-
-<details>
-  <summary>stuff with *mark* **down**</summary>
-  <p>
-  ciao
-
-</p>
-</details>
 
 
 
