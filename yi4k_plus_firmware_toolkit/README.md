@@ -4,8 +4,8 @@
 It is based on the code reversed thanks to irungentoo, on top of which I added few things, and plan to add more, resulting in a complete fw toolkit.
 
 <details>
-  <summary>CHANGELOG</summary>
-  <p>
+  <summary>CHANGELOG</summary><p>
+  
 * Tested on Windows with VS 2015 -> should compile for any VS version/Windows version
 * Added simple console GUI
 * Added drag and drop support -> no more command line
@@ -14,8 +14,7 @@ It is based on the code reversed thanks to irungentoo, on top of which I added f
 * Added finding and dumping bitrate tables automatically
 * Automatically dump the correct addresses taking into account the RTOS vram base of 0x20000
 
-</p>
-</details>
+</p></details>
 
 
 * TODO : Add bitrate resolution names correspondance
