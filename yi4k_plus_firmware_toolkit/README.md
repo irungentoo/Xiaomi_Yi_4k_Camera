@@ -5,16 +5,21 @@ It is based on the code reversed thanks to irungentoo, on top of which I added f
 
 <details>
   <summary>CHANGELOG</summary><p>
-  
-* Tested on Windows with VS 2015 -> should compile for any VS version/Windows version
-* Added simple console GUI
-* Added drag and drop support -> no more command line
-* Added proper names to unpacked binaries
-* Tested on 1.2.14/17 Beta and latest 1.3.11 Official Fw
-* Added finding and dumping bitrate tables automatically
-* Automatically dump the correct addresses taking into account the RTOS vram base of 0x20000
+
+* [v1.2] Added internal function names dump
+
+* [v1.1] Tested on Windows with VS 2015 -> should compile for any VS version/Windows version
+* [v1.1] Added simple console GUI
+* [v1.1] Added drag and drop support -> no more command line
+* [v1.1] Added proper names to unpacked binaries
+* [v1.1] Tested on 1.2.14/17 Beta and latest 1.3.11 Official Fw
+* [v1.1] Added finding and dumping bitrate tables automatically
+* [v1.1] Automatically dump the correct addresses taking into account the RTOS vram base of 0x20000
 
 </p></details>
+
+
+
 
 
 * TODO : Add bitrate resolution names correspondance
