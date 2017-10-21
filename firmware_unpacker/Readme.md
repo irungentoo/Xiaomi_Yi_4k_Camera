@@ -14,7 +14,7 @@ directory exists or the program won't work.
 
 A windows build of the tool can be found in: [releases](https://github.com/irungentoo/Xiaomi_Yi_4k_Camera/releases) It comes with a unpacker.bat script that will unpack a firmware.bin placed beside it to firmware_unpacked/
 
-#### Unpacked files information 4k:
+### Unpacked files information 4k:
 
 Note that this might change in later firmwares.
 
@@ -37,7 +37,7 @@ out_8.bin is the linux squashfs partition, it can be extracted with:
 
 ```unsquashfs out_8.bin```
 
-#### Unpacked files information 4k+:
+### Unpacked files information 4k+:
 
 Note that this might change in later firmwares.
 
