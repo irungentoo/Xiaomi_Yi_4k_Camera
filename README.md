@@ -1,4 +1,4 @@
-# Yi 4k Camera
+# Yi 4k (and 4k+) Cameras
 
 Current master is for firmware 1.8.9.
 
@@ -9,6 +9,8 @@ It's a nice camera but it has no documentation anywhere. It uses an ambarella SO
 In this repo there is:
 
 [4k+](4k+/) Stuff for the yi 4k+.
+
+[Firmware Unpacker](firmware_unpacker/) Firmware unpacker for the 4k and 4k+ firmwares.
 
 [Bitrate Mod](bitrate_mod/) A script that increases the bitrate of some modes on the camera.
 
