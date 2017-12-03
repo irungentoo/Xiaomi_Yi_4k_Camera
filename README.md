@@ -4,7 +4,7 @@ It's a nice camera but it has no documentation anywhere. It uses an ambarella SO
 
 In this repo there is:
 
-[4k+](4k/) Stuff for the yi 4k.
+[4k](4k/) Stuff for the yi 4k.
 
 [4k+](4k+/) Stuff for the yi 4k+.
 
