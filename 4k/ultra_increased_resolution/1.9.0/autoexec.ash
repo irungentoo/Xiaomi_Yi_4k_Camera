@@ -1,0 +1,16 @@
+#Yi 4k ultra 4000x2700 and 1080p ultra 90p 2000x1500 mod by irungentoo
+#For firmware 1.9.0
+#set 4k ultra to 4000x2700
+#NTSC
+writel 0xA06CFCAC 0x0A8C0FA0
+writew 0xA06CFCB0 0x0403
+#PAL
+writel 0xA06D7EEC 0x0A8C0FA0
+writew 0xA06D7EF0 0x0403
+#set 1080p ultra 90p to 2000x1500
+#NTSC
+writel 0xA06D048C 0x05DC07D0
+writew 0xA06D0490 0x0403
+#PAL
+writel 0xA06D86CC 0x05DC07D0
+writew 0xA06D86D0 0x0403

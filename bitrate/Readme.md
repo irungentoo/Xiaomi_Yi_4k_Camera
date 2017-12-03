@@ -1,4 +1,4 @@
-## Yi 4k+ bitrate mod.
+## Yi 4k and 4k+ bitrate mod.
 
 Start by opening up the autoexec.ash that corresponds to the firmware version 
 that you have.

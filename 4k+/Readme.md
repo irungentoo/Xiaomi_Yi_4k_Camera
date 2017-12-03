@@ -2,7 +2,7 @@
 
 Things specific to the yi4k+.
 
-[Bitrate Mod](bitrate/) The bitrate mod.
+[Bitrate Mod](../bitrate/) The bitrate mod.
 
 [Increased Framerate](increased_framerate/) Increases the framerate of modes on the camera.
 
