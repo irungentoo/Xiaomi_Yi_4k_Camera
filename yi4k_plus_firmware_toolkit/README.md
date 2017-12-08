@@ -3,6 +3,8 @@
 
 It is based on the code reversed thanks to irungentoo, on top of which I added few things, and plan to add more, resulting in a complete fw toolkit.
 
+LATEST : v1.3 (08/12/2017)
+
 <details>
   <summary>CHANGELOG</summary><p>
 
