@@ -6,6 +6,11 @@ It is based on the code reversed thanks to irungentoo, on top of which I added f
 <details>
   <summary>CHANGELOG</summary><p>
 
+* [v1.3] Fixed internal function names dump
+* [v1.3] Added resolution names and video mode to bitrate dump
+* [v1.3] Added (experimental) framerate table dump, fix in next version
+* [v1.3] Code layout changes
+  
 * [v1.2] Added internal function names dump
 
 * [v1.1] Tested on Windows with VS 2015 -> should compile for any VS version/Windows version
