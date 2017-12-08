@@ -12,4 +12,5 @@
 #include <fstream>
 #include <sstream> 
 #include <Shlwapi.h>
+#include <map>
 #pragma comment(lib, "shlwapi.lib")
