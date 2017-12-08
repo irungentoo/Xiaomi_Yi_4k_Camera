@@ -27,7 +27,9 @@ It is based on the code reversed thanks to irungentoo, on top of which I added f
 
 
 TODO : 
-* Add bitrate resolution names correspondance
+* Fix framerate table dump output
+* Add framerate table resolution names
+* Add output for ready-to-use increase framerate mod (both shutter and framerate table needed)
 
 
 #### How to unpack
