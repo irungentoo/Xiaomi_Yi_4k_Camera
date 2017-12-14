@@ -30,14 +30,6 @@ int main(int argc, char *argv[])
 	std::cout << "********Credits to : irungentoo, wavepacket0********\n";
 	std::cout << "****************************************************\n";
 
-	uint32_t addr = 0xE30925A8;
-
-	uint8_t* ptr = (uint8_t*)&addr;
-
-	U* test = (U*)(ptr + 1);
-
-	printf("0x%lX - 0x%lX\n\n", reverse(test->byte.c1), test->byte.c2);
-
 	while (myHandler.loop)
 	{
 		std::cout << "\n\nWhat do you want to do? u = unpack - d = dump fw tables - e = exit\n";
