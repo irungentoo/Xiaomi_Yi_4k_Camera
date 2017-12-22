@@ -14,6 +14,8 @@ In this repo there is:
 
 [Firmware Unpacker](firmware_unpacker/) Firmware unpacker for the 4k and 4k+ firmwares.
 
+[Useful autoexec.ash Commands](autoexec.ash/) Some useful autoexec.ash commands.
+
 [Telnet](telnet/) How to enable telnet on the camera.
 
 [Live](live/) How to create qr codes for the live streaming mode.
@@ -21,8 +23,6 @@ In this repo there is:
 [Settings](settings/) Some notes on camera settings.
 
 [Dump Camera Settings](dump_camera_settings/) Dump camera settings to a file.
-
-[Dump Memory](dump_memory/) Dump memory to a file.
 
 [Enable RTOS Logs](enable_logs/) Enable RTOS logging to sd card on the camera.
 
