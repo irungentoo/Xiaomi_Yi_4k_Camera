@@ -15,6 +15,8 @@ For station mode, your file should look like this:
 /usr/local/share/network/start.sh WIFI_MODE=sta STA_SSID=ssid STA_PASSWD=password STA_FREQ=1 STA_NAME=yi_cam_1 STA_SCAN=1 CHIP_TYPE=43340 WIFI_MAC=58:70:C6:AA:AA:AA
 ```
 
+To set a custom ip in sta mode you can add: ```STA_IP=192.168.0.201``` to the command and set it to whatever ip you want to set.
+
 For access point mode, your file should look like this:
 
 ```
@@ -22,6 +24,6 @@ For access point mode, your file should look like this:
 #/usr/local/share/network/start.sh WIFI_MODE=ap AP_CHANNEL_5G=1 AP_SSID=YDXJ_7586748_5G AP_PASSWD=1234567890 AP_COUNTRY=CA CHIP_TYPE=43340 WIFI_MAC=58:70:C6:AA:AA:AA
 ```
 
-Just set the variables to what you want, it's pretty self explanatory. 
+Just set the variables to what you want, it's pretty self explanatory. Then you just start the wifi on the camera.
 
 This mod works because the camera runs the ```/usr/local/share/network/restart.sh``` script to start the wifi. That script checks if the file ```/tmp/fuse_d/Wi-Fi.DEBUG/start.sh``` exists and if it does it runs it instead of ```/usr/local/share/network/start.sh```
