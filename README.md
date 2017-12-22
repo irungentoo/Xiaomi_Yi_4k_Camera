@@ -26,4 +26,4 @@ In this repo there is:
 
 [Enable RTOS Logs](enable_logs/) Enable RTOS logging to sd card on the camera.
 
-[Camera Controller] (camera_controller) python script to control 1 or more cameras over wifi.
+[Camera Controller](camera_controller) python script to control one or more cameras over wifi.
