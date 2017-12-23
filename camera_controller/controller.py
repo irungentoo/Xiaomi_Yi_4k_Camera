@@ -69,51 +69,37 @@ class Cameras:
             a.send_stop_recording()
 
 if __name__ == "__main__":
-    import termios
-    import contextlib
+    import kbhit
     import sys
 
     if (len(sys.argv) == 1):
         print(sys.argv[0] + " <ip camera 1> <ip camera 2> ... <ip camera n>")
         exit(1)
 
-    @contextlib.contextmanager
-    def raw_mode(file):
-        old_attrs = termios.tcgetattr(file.fileno())
-        new_attrs = old_attrs[:]
-        new_attrs[3] = new_attrs[3] & ~(termios.ECHO | termios.ICANON)
-        new_attrs[6][termios.VMIN] = 0  # cc
-        new_attrs[6][termios.VTIME] = 0 # cc
-        try:
-            termios.tcsetattr(file.fileno(), termios.TCSADRAIN, new_attrs)
-            yield
-        finally:
-            termios.tcsetattr(file.fileno(), termios.TCSADRAIN, old_attrs)
-
     cameras = Cameras()
     sys.argv.pop(0)
     for a in sys.argv:
         cameras.append(Camera(a))
 
+    kb = kbhit.KBHit()
 
     print("The program initialized successfully")
     print("Use space to send a start recording command and then space again to stop")
 
     recording = False
-    with raw_mode(sys.stdin):
-        try:
-            while True:
-                cameras.do()
-                ch = sys.stdin.read(1)
-                if ch == chr(0x20):
-                    if (recording):
-                        print("stop recording")
-                        cameras.stop_recording()
-                        recording = False
-                    else:
-                        print("start recording")
-                        cameras.start_recording()
-                        recording = True
+    while True:
+        cameras.do()
+        if kb.kbhit():
+            ch = kb.getch()
+            if ch == chr(0x20):
+                if (recording):
+                    print("stop recording")
+                    cameras.stop_recording()
+                    recording = False
+                else:
+                    print("start recording")
+                    cameras.start_recording()
+                    recording = True
+        else:
+            time.sleep(0.1)
 
-        except (KeyboardInterrupt, EOFError):
-            pass
