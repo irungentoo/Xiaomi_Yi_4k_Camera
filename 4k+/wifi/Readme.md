@@ -21,7 +21,7 @@ For access point mode, your file should look like this:
 
 ```
 #!/bin/sh
-#/usr/local/share/network/start.sh WIFI_MODE=ap AP_CHANNEL_5G=1 AP_SSID=YDXJ_7586748_5G AP_PASSWD=1234567890 AP_COUNTRY=CA CHIP_TYPE=43340 WIFI_MAC=58:70:C6:AA:AA:AA
+/usr/local/share/network/start.sh WIFI_MODE=ap AP_CHANNEL_5G=1 AP_SSID=YDXJ_7586748_5G AP_PASSWD=1234567890 AP_COUNTRY=CA CHIP_TYPE=43340 WIFI_MAC=58:70:C6:AA:AA:AA
 ```
 
 Just set the variables to what you want, it's pretty self explanatory. Then you just start the wifi on the camera.
