@@ -73,13 +73,10 @@ BOOL CDumper::GetRTOSVersion()
 		return FALSE;
 	}
 
-	fw_version = GetFWVersion(dwfull_version);
+	char* v = (char*)dwfull_version;
 
-	if (fw_version == FW_UNKNOWN)
-	{
-		std::cout << "Unknown RTOS firmware version, exiting!";
-		return FALSE;
-	}
+	full_version = v;
+	version = full_version.substr(8, 6);
 
 	std::cout << "[Version] Analyzing RTOS : " << full_version.data() << "\n";
 	std::cout << "[Version] Version RTOS : " << version.data() << "\n\n";
@@ -87,23 +84,6 @@ BOOL CDumper::GetRTOSVersion()
 	return TRUE;
 }
 
-uint32_t CDumper::GetFWVersion(uint32_t fw_full_version)
-{
-	char* v = (char*)fw_full_version;
-
-	full_version = v;
-	version = full_version.substr(8, 6);
-
-	if (version.find("1.2.17") != std::string::npos)
-		return FW_1_2_17;
-	else if (version.find("1.3.11") != std::string::npos)
-		return FW_1_3_11;
-	else if (version.find("1.3.18") != std::string::npos)
-		return FW_1_3_18;
-	else if (version.find("1.3.23") != std::string::npos)
-		return FW_1_3_23;
-	else return FW_UNKNOWN;
-}
 
 BOOL CDumper::DumpVideoBitrateTable()
 {
@@ -334,8 +314,11 @@ BOOL CDumper::DumpDebugStuffs()
 
 BOOL CDumper::DumpRTOSInformations(std::string RTOS_path, const char debug)
 {
-	if (!bLoaded)
-		LoadRTOS(RTOS_path);
+	if (!bLoaded && !LoadRTOS(RTOS_path))
+	{
+		std::cout << "[Dumper] Failed loading RTOS image! \n";
+		return FALSE;
+	}
 
 	DumpVideoBitrateTable();
 	DumpAudioBitrate();

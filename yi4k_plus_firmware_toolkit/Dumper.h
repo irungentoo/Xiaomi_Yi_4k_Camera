@@ -14,15 +14,6 @@ private:
 	std::string version;
 	uint32_t fw_version;
 
-	enum FIRMWARE_VERSION
-	{
-		FW_1_2_17 = 1217,
-		FW_1_3_11 = 1311,
-		FW_1_3_18 = 1318,
-		FW_1_3_23 = 1323,
-
-		FW_UNKNOWN = 0
-	};
 
 	uint32_t Addr2RTOS(uint32_t address)
 	{
@@ -38,7 +29,6 @@ private:
 	BOOL CDumper::LoadRTOS(std::string dropped_rtos);
 	BOOL CDumper::Match(const BYTE* pData, const BYTE* bMask, const char* szMask);
 	DWORD CDumper::FindPattern(DWORD dwAddress, DWORD dwLen, BYTE *bMask, char * szMask);
-	uint32_t CDumper::GetFWVersion(uint32_t fw_full_version);
 	BOOL CDumper::GetRTOSVersion();
 	VOID CDumper::Log(char* filename, char* fmt, ...);
 	std::string CDumper::float_to_hex(float fn);

@@ -3,10 +3,12 @@
 
 It is based on the code reversed thanks to irungentoo, on top of which I added few things, and plan to add more, resulting in a complete fw toolkit.
 
-LATEST : v1.3 (08/12/2017)
+LATEST : v1.4 (29/12/2017)
 
 <details>
   <summary>CHANGELOG</summary><p>
+
+* [v1.4] Fixed dynamically getting firmware version
 
 * [v1.3] Fixed internal function names dump
 * [v1.3] Added resolution names and video mode to bitrate dump
