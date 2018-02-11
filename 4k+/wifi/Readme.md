@@ -15,6 +15,8 @@ For station mode, your file should look like this:
 /usr/local/share/network/start.sh WIFI_MODE=sta STA_SSID=ssid STA_PASSWD=password STA_FREQ=1 STA_NAME=yi_cam_1 STA_SCAN=1 CHIP_TYPE=43340 WIFI_MAC=58:70:C6:AA:AA:AA
 ```
 
+```STA_FREQ=1``` is used to set the wifi to 5GHz mode, use: ```STA_FREQ=0``` if your station is 2.4GHz
+
 To set a custom ip in sta mode you can add: ```STA_IP=192.168.0.201``` to the command and set it to whatever ip you want to set.
 
 For access point mode, your file should look like this:
