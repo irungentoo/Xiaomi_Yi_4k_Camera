@@ -1,0 +1,1119 @@
+#Custom video bitrate dump with default values [1.4.14]
+
+
+#resolution : 3840x2160 30P 16:9 (NTSC) 3840x2160 25P 16:9 (PAL)
+writel 0xAB9C84 0x42C80000 #high_quality 100 mbps
+writel 0xAB9C88 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9C8C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9C94 0x42700000 #medium_quality 60 mbps
+writel 0xAB9C98 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9C9C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9CA4 0x42340000 #low_quality 45 mbps
+writel 0xAB9CA8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9CAC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 3840x2160 24P 16:9 (NTSC) 3840x2160 24P 16:9 (PAL)
+writel 0xAB9CB4 0x42C80000 #high_quality 100 mbps
+writel 0xAB9CB8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9CBC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9CC4 0x42700000 #medium_quality 60 mbps
+writel 0xAB9CC8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9CCC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9CD4 0x42340000 #low_quality 45 mbps
+writel 0xAB9CD8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9CDC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 3840x2160 48P 16:9 (NTSC) 3840x2160 48P 16:9 (PAL)
+writel 0xAB9CE4 0x43070000 #high_quality 135 mbps
+writel 0xAB9CE8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9CEC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9CF4 0x42C80000 #medium_quality 100 mbps
+writel 0xAB9CF8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9CFC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9D04 0x42700000 #low_quality 60 mbps
+writel 0xAB9D08 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9D0C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 3840x2160 60P 16:9 (NTSC) 3840x2160 50P 16:9 (PAL)
+writel 0xAB9D14 0x43070000 #high_quality 135 mbps
+writel 0xAB9D18 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9D1C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9D24 0x42C80000 #medium_quality 100 mbps
+writel 0xAB9D28 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9D2C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9D34 0x42700000 #low_quality 60 mbps
+writel 0xAB9D38 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9D3C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 3840x2160 30P 16:9 super (NTSC) 3840x2160 25P 16:9 super (PAL)
+writel 0xAB9D44 0x42C80000 #high_quality 100 mbps
+writel 0xAB9D48 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9D4C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9D54 0x42700000 #medium_quality 60 mbps
+writel 0xAB9D58 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9D5C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9D64 0x42340000 #low_quality 45 mbps
+writel 0xAB9D68 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9D6C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 3840x2160 15P 16:9 (NTSC) 3840x2160 15P 16:9 (PAL)
+writel 0xAB9D74 0x41F00000 #high_quality 30 mbps
+writel 0xAB9D78 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9D7C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9D84 0x41A00000 #medium_quality 20 mbps
+writel 0xAB9D88 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9D8C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9D94 0x41700000 #low_quality 15 mbps
+writel 0xAB9D98 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9D9C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 4000x3008 30P 4:3 (NTSC) 4000x3008 25P 4:3 (PAL)
+writel 0xAB9DA4 0x42F00000 #high_quality 120 mbps
+writel 0xAB9DA8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9DAC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9DB4 0x42960000 #medium_quality 75 mbps
+writel 0xAB9DB8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9DBC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9DC4 0x42700000 #low_quality 60 mbps
+writel 0xAB9DC8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9DCC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 2976x2976 30P 1:1 (NTSC) 2976x2976 25P 1:1 (PAL)
+writel 0xAB9DD4 0x42340000 #high_quality 45 mbps
+writel 0xAB9DD8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9DDC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9DE4 0x41F00000 #medium_quality 30 mbps
+writel 0xAB9DE8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9DEC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9DF4 0x41C00000 #low_quality 24 mbps
+writel 0xAB9DF8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9DFC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 2688x2688 30P 1:1 (NTSC) 2688x2688 25P 1:1 (PAL)
+writel 0xAB9E04 0x42340000 #high_quality 45 mbps
+writel 0xAB9E08 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9E0C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9E14 0x41F00000 #medium_quality 30 mbps
+writel 0xAB9E18 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9E1C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9E24 0x41C00000 #low_quality 24 mbps
+writel 0xAB9E28 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9E2C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 2720x1520 60P 16:9 (NTSC) 2720x1520 50P 16:9 (PAL)
+writel 0xAB9E34 0x42960000 #high_quality 75 mbps
+writel 0xAB9E38 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9E3C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9E44 0x42700000 #medium_quality 60 mbps
+writel 0xAB9E48 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9E4C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9E54 0x42340000 #low_quality 45 mbps
+writel 0xAB9E58 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9E5C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 2720x1520 30P 16:9 (NTSC) 2720x1520 25P 16:9 (PAL)
+writel 0xAB9E64 0x42700000 #high_quality 60 mbps
+writel 0xAB9E68 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9E6C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9E74 0x42340000 #medium_quality 45 mbps
+writel 0xAB9E78 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9E7C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9E84 0x41C00000 #low_quality 24 mbps
+writel 0xAB9E88 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9E8C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 2720x1520 24P 16:9 (NTSC) 2720x1520 24P 16:9 (PAL)
+writel 0xAB9E94 0x42700000 #high_quality 60 mbps
+writel 0xAB9E98 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9E9C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9EA4 0x42340000 #medium_quality 45 mbps
+writel 0xAB9EA8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9EAC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9EB4 0x41C00000 #low_quality 24 mbps
+writel 0xAB9EB8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9EBC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 2720x1520 48P 16:9 (NTSC) 2720x1520 48P 16:9 (PAL)
+writel 0xAB9EC4 0x42960000 #high_quality 75 mbps
+writel 0xAB9EC8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9ECC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9ED4 0x42700000 #medium_quality 60 mbps
+writel 0xAB9ED8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9EDC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9EE4 0x42340000 #low_quality 45 mbps
+writel 0xAB9EE8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9EEC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 2720x1520 30P 16:9 super (NTSC) 2720x1520 25P 16:9 super (PAL)
+writel 0xAB9EF4 0x42960000 #high_quality 75 mbps
+writel 0xAB9EF8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9EFC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9F04 0x42700000 #medium_quality 60 mbps
+writel 0xAB9F08 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9F0C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9F14 0x42340000 #low_quality 45 mbps
+writel 0xAB9F18 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9F1C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 2720x2032 30P 4:3 (NTSC) 2720x2032 25P 4:3 (PAL)
+writel 0xAB9F24 0x42960000 #high_quality 75 mbps
+writel 0xAB9F28 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9F2C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9F34 0x42700000 #medium_quality 60 mbps
+writel 0xAB9F38 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9F3C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9F44 0x42340000 #low_quality 45 mbps
+writel 0xAB9F48 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9F4C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 2560x1920 30P 4:3 (NTSC) 2560x1920 25P 4:3 (PAL)
+writel 0xAB9F54 0x42700000 #high_quality 60 mbps
+writel 0xAB9F58 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9F5C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9F64 0x42340000 #medium_quality 45 mbps
+writel 0xAB9F68 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9F6C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9F74 0x41C00000 #low_quality 24 mbps
+writel 0xAB9F78 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9F7C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 2560x1440 60P 16:9 (NTSC) 2560x1440 50P 16:9 (PAL)
+writel 0xAB9F84 0x42100000 #high_quality 36 mbps
+writel 0xAB9F88 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9F8C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9F94 0x41F00000 #medium_quality 30 mbps
+writel 0xAB9F98 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9F9C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9FA4 0x41C00000 #low_quality 24 mbps
+writel 0xAB9FA8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9FAC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 2560x1440 30P 16:9 (NTSC) 2560x1440 25P 16:9 (PAL)
+writel 0xAB9FB4 0x41C00000 #high_quality 24 mbps
+writel 0xAB9FB8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9FBC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9FC4 0x41A00000 #medium_quality 20 mbps
+writel 0xAB9FC8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9FCC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xAB9FD4 0x41800000 #low_quality 16 mbps
+writel 0xAB9FD8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xAB9FDC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : HDR 2560x1440 30P 16:9 (NTSC) HDR 2560x1440 25P 16:9 (PAL)
+writel 0xAB9FE4 0x41C00000 #high_quality 24 mbps
+writel 0xAB9FE8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xAB9FEC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xAB9FF4 0x41A00000 #medium_quality 20 mbps
+writel 0xAB9FF8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xAB9FFC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA004 0x41800000 #low_quality 16 mbps
+writel 0xABA008 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA00C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 2304x1296 30P 16:9 (NTSC) 2304x1296 25P 16:9 (PAL)
+writel 0xABA014 0x41900000 #high_quality 18 mbps
+writel 0xABA018 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA01C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA024 0x41700000 #medium_quality 15 mbps
+writel 0xABA028 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA02C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA034 0x41400000 #low_quality 12 mbps
+writel 0xABA038 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA03C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1440 60P 4:3 (NTSC) 1920x1440 50P 4:3 (PAL)
+writel 0xABA044 0x42960000 #high_quality 75 mbps
+writel 0xABA048 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA04C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA054 0x42700000 #medium_quality 60 mbps
+writel 0xABA058 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA05C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA064 0x42340000 #low_quality 45 mbps
+writel 0xABA068 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA06C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1440 30P 4:3 (NTSC) 1920x1440 25P 4:3 (PAL)
+writel 0xABA074 0x42700000 #high_quality 60 mbps
+writel 0xABA078 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA07C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA084 0x42340000 #medium_quality 45 mbps
+writel 0xABA088 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA08C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA094 0x41C00000 #low_quality 24 mbps
+writel 0xABA098 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA09C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1440 24P 4:3 (NTSC) 1920x1440 24P 4:3 (PAL)
+writel 0xABA0A4 0x42700000 #high_quality 60 mbps
+writel 0xABA0A8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA0AC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA0B4 0x42340000 #medium_quality 45 mbps
+writel 0xABA0B8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA0BC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA0C4 0x41C00000 #low_quality 24 mbps
+writel 0xABA0C8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA0CC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1440 48P 4:3 (NTSC) 1920x1440 48P 4:3 (PAL)
+writel 0xABA0D4 0x42960000 #high_quality 75 mbps
+writel 0xABA0D8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA0DC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA0E4 0x42700000 #medium_quality 60 mbps
+writel 0xABA0E8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA0EC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA0F4 0x42340000 #low_quality 45 mbps
+writel 0xABA0F8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA0FC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1080 60P 16:9 (NTSC) 1920x1080 50P 16:9 (PAL)
+writel 0xABA104 0x42700000 #high_quality 60 mbps
+writel 0xABA108 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA10C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA114 0x42340000 #medium_quality 45 mbps
+writel 0xABA118 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA11C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA124 0x41C00000 #low_quality 24 mbps
+writel 0xABA128 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA12C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : HDR1920x1080 60P 16:9 (NTSC) HDR1920x1080 50P 16:9 (PAL)
+writel 0xABA134 0x41900000 #high_quality 18 mbps
+writel 0xABA138 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA13C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA144 0x41700000 #medium_quality 15 mbps
+writel 0xABA148 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA14C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA154 0x41400000 #low_quality 12 mbps
+writel 0xABA158 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA15C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1080 60P 16:9 super (NTSC) 1920x1080 50P 16:9 super (PAL)
+writel 0xABA164 0x42700000 #high_quality 60 mbps
+writel 0xABA168 0x3F800000 #high_quality_low_mult 1.00
+writel 0xABA16C 0x3F800000 #high_quality_high_mult 1.00
+writel 0xABA174 0x42340000 #medium_quality 45 mbps
+writel 0xABA178 0x3F800000 #medium_quality_low_mult 1.00
+writel 0xABA17C 0x3F800000 #medium_quality_high_mult 1.00
+writel 0xABA184 0x41C00000 #low_quality 24 mbps
+writel 0xABA188 0x3F800000 #low_quality_low_mult 1.00
+writel 0xABA18C 0x3F800000 #low_quality_high_mult 1.00
+
+
+#resolution : 1920x1080 45P 16:9 (NTSC) 1920x1080 45P 16:9 (PAL)
+writel 0xABA194 0x42340000 #high_quality 45 mbps
+writel 0xABA198 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA19C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA1A4 0x41F00000 #medium_quality 30 mbps
+writel 0xABA1A8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA1AC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA1B4 0x41400000 #low_quality 12 mbps
+writel 0xABA1B8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA1BC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1080 40P 16:9 (NTSC) 1920x1080 40P 16:9 (PAL)
+writel 0xABA1C4 0x42340000 #high_quality 45 mbps
+writel 0xABA1C8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA1CC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA1D4 0x41F00000 #medium_quality 30 mbps
+writel 0xABA1D8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA1DC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA1E4 0x41400000 #low_quality 12 mbps
+writel 0xABA1E8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA1EC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1080 30P 16:9 (NTSC) 1920x1080 25P 16:9 (PAL)
+writel 0xABA1F4 0x42700000 #high_quality 60 mbps
+writel 0xABA1F8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA1FC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA204 0x42340000 #medium_quality 45 mbps
+writel 0xABA208 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA20C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA214 0x41C00000 #low_quality 24 mbps
+writel 0xABA218 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA21C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1080 30P 16:9 super (NTSC) 1920x1080 25P 16:9 super (PAL)
+writel 0xABA224 0x42700000 #high_quality 60 mbps
+writel 0xABA228 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA22C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA234 0x42340000 #medium_quality 45 mbps
+writel 0xABA238 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA23C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA244 0x41C00000 #low_quality 24 mbps
+writel 0xABA248 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA24C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : HDR 1920x1080 30P 16:9 (NTSC) HDR 1920x1080 25P 16:9 (PAL)
+writel 0xABA254 0x42340000 #high_quality 45 mbps
+writel 0xABA258 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA25C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA264 0x41F00000 #medium_quality 30 mbps
+writel 0xABA268 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA26C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA274 0x41400000 #low_quality 12 mbps
+writel 0xABA278 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA27C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1080 60I 16:9 (NTSC) 1920x1080 50I 16:9 (PAL)
+writel 0xABA284 0x41700000 #high_quality 15 mbps
+writel 0xABA288 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA28C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA294 0x41400000 #medium_quality 12 mbps
+writel 0xABA298 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA29C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA2A4 0x41200000 #low_quality 10 mbps
+writel 0xABA2A8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA2AC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1440x1080 60P 16:9 (NTSC) 1440x1080 50P 16:9 (PAL)
+writel 0xABA2B4 0x41700000 #high_quality 15 mbps
+writel 0xABA2B8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA2BC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA2C4 0x41400000 #medium_quality 12 mbps
+writel 0xABA2C8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA2CC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA2D4 0x41200000 #low_quality 10 mbps
+writel 0xABA2D8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA2DC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1440x1080 30P 16:9 (NTSC) 1440x1080 25P 16:9 (PAL)
+writel 0xABA2E4 0x41400000 #high_quality 12 mbps
+writel 0xABA2E8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA2EC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA2F4 0x41200000 #medium_quality 10 mbps
+writel 0xABA2F8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA2FC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA304 0x41000000 #low_quality 8 mbps
+writel 0xABA308 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA30C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1440x1080 60I 16:9 (NTSC) 1440x1080 50I 16:9 (PAL)
+writel 0xABA314 0x41700000 #high_quality 15 mbps
+writel 0xABA318 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA31C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA324 0x41400000 #medium_quality 12 mbps
+writel 0xABA328 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA32C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA334 0x41200000 #low_quality 10 mbps
+writel 0xABA338 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA33C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1600x1200 60P 4:3 (NTSC) 1600x1200 50P 4:3 (PAL)
+writel 0xABA344 0x41700000 #high_quality 15 mbps
+writel 0xABA348 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA34C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA354 0x41400000 #medium_quality 12 mbps
+writel 0xABA358 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA35C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA364 0x41200000 #low_quality 10 mbps
+writel 0xABA368 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA36C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1600x1200 30P 4:3 (NTSC) 1600x1200 25P 4:3 (PAL)
+writel 0xABA374 0x41400000 #high_quality 12 mbps
+writel 0xABA378 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA37C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA384 0x41200000 #medium_quality 10 mbps
+writel 0xABA388 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA38C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA394 0x41000000 #low_quality 8 mbps
+writel 0xABA398 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA39C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1440x1080 30P 4:3 (NTSC) 1440x1080 25P 4:3 (PAL)
+writel 0xABA3A4 0x41400000 #high_quality 12 mbps
+writel 0xABA3A8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA3AC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA3B4 0x41200000 #medium_quality 10 mbps
+writel 0xABA3B8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA3BC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA3C4 0x41000000 #low_quality 8 mbps
+writel 0xABA3C8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA3CC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1600x900 30P 16:9 (NTSC) 1600x900 25P 16:9 (PAL)
+writel 0xABA3D4 0x41400000 #high_quality 12 mbps
+writel 0xABA3D8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA3DC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA3E4 0x41200000 #medium_quality 10 mbps
+writel 0xABA3E8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA3EC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA3F4 0x41000000 #low_quality 8 mbps
+writel 0xABA3F8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA3FC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1280x720 60P 16:9 (NTSC) 1280x720 50P 16:9 (PAL)
+writel 0xABA404 0x42700000 #high_quality 60 mbps
+writel 0xABA408 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA40C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA414 0x42340000 #medium_quality 45 mbps
+writel 0xABA418 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA41C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA424 0x41C00000 #low_quality 24 mbps
+writel 0xABA428 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA42C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1280x720 60P 16:9 super (NTSC) 1280x720 50P 16:9 super (PAL)
+writel 0xABA434 0x42700000 #high_quality 60 mbps
+writel 0xABA438 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA43C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA444 0x42340000 #medium_quality 45 mbps
+writel 0xABA448 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA44C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA454 0x41C00000 #low_quality 24 mbps
+writel 0xABA458 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA45C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1280x720 30P 16:9 (NTSC) 1280x720 25P 16:9 (PAL)
+writel 0xABA464 0x42340000 #high_quality 45 mbps
+writel 0xABA468 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA46C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA474 0x41F00000 #medium_quality 30 mbps
+writel 0xABA478 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA47C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA484 0x41400000 #low_quality 12 mbps
+writel 0xABA488 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA48C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : HDR1280x720 30P 16:9 (NTSC) HDR1280x720 25P 16:9 (PAL)
+writel 0xABA494 0x42340000 #high_quality 45 mbps
+writel 0xABA498 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA49C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA4A4 0x41F00000 #medium_quality 30 mbps
+writel 0xABA4A8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA4AC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA4B4 0x41400000 #low_quality 12 mbps
+writel 0xABA4B8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA4BC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 864x480 60P 16:9 (NTSC) 864x480 50P 16:9 (PAL)
+writel 0xABA4C4 0x3F800000 #high_quality 1 mbps
+writel 0xABA4C8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA4CC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA4D4 0x3F800000 #medium_quality 1 mbps
+writel 0xABA4D8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA4DC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA4E4 0x3F800000 #low_quality 1 mbps
+writel 0xABA4E8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA4EC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 864x480 30P 16:9 (NTSC) 864x480 25P 16:9 (PAL)
+writel 0xABA4F4 0x3F800000 #high_quality 1 mbps
+writel 0xABA4F8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA4FC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA504 0x3F800000 #medium_quality 1 mbps
+writel 0xABA508 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA50C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA514 0x3F800000 #low_quality 1 mbps
+writel 0xABA518 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA51C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 864x480 30P 16:9 super (NTSC) 864x480 25P 16:9 super (PAL)
+writel 0xABA524 0x3F800000 #high_quality 1 mbps
+writel 0xABA528 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA52C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA534 0x3F800000 #medium_quality 1 mbps
+writel 0xABA538 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA53C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA544 0x3F800000 #low_quality 1 mbps
+writel 0xABA548 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA54C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 864x480 60P 16:9 super (NTSC) 864x480 50P 16:9 super (PAL)
+writel 0xABA554 0x3F800000 #high_quality 1 mbps
+writel 0xABA558 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA55C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA564 0x3F800000 #medium_quality 1 mbps
+writel 0xABA568 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA56C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA574 0x3F800000 #low_quality 1 mbps
+writel 0xABA578 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA57C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 720x480 60P 16:9 (NTSC) 720x480 50P 16:9 (PAL)
+writel 0xABA584 0x41000000 #high_quality 8 mbps
+writel 0xABA588 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA58C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA594 0x40C00000 #medium_quality 6 mbps
+writel 0xABA598 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA59C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA5A4 0x40800000 #low_quality 4 mbps
+writel 0xABA5A8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA5AC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 720x480 30P 4:3 (NTSC) 720x480 25P 4:3 (PAL)
+writel 0xABA5B4 0x40800000 #high_quality 4 mbps
+writel 0xABA5B8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA5BC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA5C4 0x40400000 #medium_quality 3 mbps
+writel 0xABA5C8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA5CC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA5D4 0x40000000 #low_quality 2 mbps
+writel 0xABA5D8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA5DC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1280x960 60P 4:3 (NTSC) 1280x960 50P 4:3 (PAL)
+writel 0xABA5E4 0x42700000 #high_quality 60 mbps
+writel 0xABA5E8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA5EC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA5F4 0x42340000 #medium_quality 45 mbps
+writel 0xABA5F8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA5FC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA604 0x41C00000 #low_quality 24 mbps
+writel 0xABA608 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA60C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1280x960 30P 4:3 (NTSC) 1280x960 25P 4:3 (PAL)
+writel 0xABA614 0x42700000 #high_quality 60 mbps
+writel 0xABA618 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA61C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA624 0x42340000 #medium_quality 45 mbps
+writel 0xABA628 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA62C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA634 0x41C00000 #low_quality 24 mbps
+writel 0xABA638 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA63C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 960x540 30P 16:9 (NTSC) 960x540 25P 16:9 (PAL)
+writel 0xABA644 0x41480000 #high_quality 13 mbps
+writel 0xABA648 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA64C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA654 0x41180000 #medium_quality 10 mbps
+writel 0xABA658 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA65C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA664 0x40D00000 #low_quality 7 mbps
+writel 0xABA668 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA66C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 640x360 30P 16:9 (NTSC) 640x360 25P 16:9 (PAL)
+writel 0xABA674 0x3F19999A #high_quality 1 mbps
+writel 0xABA678 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA67C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA684 0x3F000000 #medium_quality 1 mbps
+writel 0xABA688 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA68C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA694 0x3ECCCCCD #low_quality 0 mbps
+writel 0xABA698 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA69C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 640x480 60P 4:3 (NTSC) 640x480 50P 4:3 (PAL)
+writel 0xABA6A4 0x3F800000 #high_quality 1 mbps
+writel 0xABA6A8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA6AC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA6B4 0x3F800000 #medium_quality 1 mbps
+writel 0xABA6B8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA6BC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA6C4 0x3F800000 #low_quality 1 mbps
+writel 0xABA6C8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA6CC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 640x480 30P 4:3 (NTSC) 640x480 25P 4:3 (PAL)
+writel 0xABA6D4 0x3F800000 #high_quality 1 mbps
+writel 0xABA6D8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA6DC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA6E4 0x3F800000 #medium_quality 1 mbps
+writel 0xABA6E8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA6EC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA6F4 0x3F800000 #low_quality 1 mbps
+writel 0xABA6F8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA6FC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 432x240 60P 16:9 (NTSC) 432x240 50P 16:9 (PAL)
+writel 0xABA704 0x3F333333 #high_quality 1 mbps
+writel 0xABA708 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA70C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA714 0x3F19999A #medium_quality 1 mbps
+writel 0xABA718 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA71C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA724 0x3F000000 #low_quality 1 mbps
+writel 0xABA728 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA72C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 432x240 30P 16:9 (NTSC) 432x240 25P 16:9 (PAL)
+writel 0xABA734 0x3F333333 #high_quality 1 mbps
+writel 0xABA738 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA73C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA744 0x3F19999A #medium_quality 1 mbps
+writel 0xABA748 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA74C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA754 0x3F000000 #low_quality 1 mbps
+writel 0xABA758 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA75C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 320x240 30P 4:3 (NTSC) 320x240 25P 4:3 (PAL)
+writel 0xABA764 0x3F333333 #high_quality 1 mbps
+writel 0xABA768 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA76C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA774 0x3F19999A #medium_quality 1 mbps
+writel 0xABA778 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA77C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA784 0x3F000000 #low_quality 1 mbps
+writel 0xABA788 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA78C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 352x240 30P 4:3 (NTSC) 352x240 25P 4:3 (PAL)
+writel 0xABA794 0x3F333333 #high_quality 1 mbps
+writel 0xABA798 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA79C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA7A4 0x3F19999A #medium_quality 1 mbps
+writel 0xABA7A8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA7AC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA7B4 0x3F000000 #low_quality 1 mbps
+writel 0xABA7B8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA7BC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 2560x1440 50P 16:9 (NTSC) 2560x1440 60P 16:9 (PAL)
+writel 0xABA7C4 0x42100000 #high_quality 36 mbps
+writel 0xABA7C8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA7CC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA7D4 0x41F00000 #medium_quality 30 mbps
+writel 0xABA7D8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA7DC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA7E4 0x41C00000 #low_quality 24 mbps
+writel 0xABA7E8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA7EC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1080 48P 16:9 (NTSC) 1920x1080 48P 16:9 (PAL)
+writel 0xABA7F4 0x42700000 #high_quality 60 mbps
+writel 0xABA7F8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA7FC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA804 0x42340000 #medium_quality 45 mbps
+writel 0xABA808 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA80C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA814 0x41C00000 #low_quality 24 mbps
+writel 0xABA818 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA81C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1080 24P 16:9 (NTSC) 1920x1080 24P 16:9 (PAL)
+writel 0xABA824 0x42700000 #high_quality 60 mbps
+writel 0xABA828 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA82C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA834 0x42340000 #medium_quality 45 mbps
+writel 0xABA838 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA83C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA844 0x41C00000 #low_quality 24 mbps
+writel 0xABA848 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA84C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1080 15P 16:9 (NTSC) 1920x1080 15P 16:9 (PAL)
+writel 0xABA854 0x41400000 #high_quality 12 mbps
+writel 0xABA858 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA85C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA864 0x41200000 #medium_quality 10 mbps
+writel 0xABA868 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA86C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA874 0x41000000 #low_quality 8 mbps
+writel 0xABA878 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA87C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1600x1200 48P 4:3 (NTSC) 1600x1200 48P 4:3 (PAL)
+writel 0xABA884 0x41700000 #high_quality 15 mbps
+writel 0xABA888 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA88C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA894 0x41400000 #medium_quality 12 mbps
+writel 0xABA898 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA89C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA8A4 0x41200000 #low_quality 10 mbps
+writel 0xABA8A8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA8AC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1600x1200 24P 4:3 (NTSC) 1600x1200 24P 4:3 (PAL)
+writel 0xABA8B4 0x41200000 #high_quality 10 mbps
+writel 0xABA8B8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA8BC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA8C4 0x41000000 #medium_quality 8 mbps
+writel 0xABA8C8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA8CC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA8D4 0x40C00000 #low_quality 6 mbps
+writel 0xABA8D8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA8DC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1280x960 48P 4:3 (NTSC) 1280x960 48P 4:3 (PAL)
+writel 0xABA8E4 0x41700000 #high_quality 15 mbps
+writel 0xABA8E8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA8EC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA8F4 0x41400000 #medium_quality 12 mbps
+writel 0xABA8F8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA8FC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA904 0x41200000 #low_quality 10 mbps
+writel 0xABA908 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA90C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1280x960 24P 4:3 (NTSC) 1280x960 24P 4:3 (PAL)
+writel 0xABA914 0x41480000 #high_quality 13 mbps
+writel 0xABA918 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA91C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA924 0x41180000 #medium_quality 10 mbps
+writel 0xABA928 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA92C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA934 0x40D00000 #low_quality 7 mbps
+writel 0xABA938 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA93C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1280x720 48P 16:9 (NTSC) 1280x720 48P 16:9 (PAL)
+writel 0xABA944 0x41700000 #high_quality 15 mbps
+writel 0xABA948 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA94C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA954 0x41400000 #medium_quality 12 mbps
+writel 0xABA958 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA95C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA964 0x41200000 #low_quality 10 mbps
+writel 0xABA968 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA96C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1280x720 24P 16:9 (NTSC) 1280x720 24P 16:9 (PAL)
+writel 0xABA974 0x41200000 #high_quality 10 mbps
+writel 0xABA978 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA97C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA984 0x41000000 #medium_quality 8 mbps
+writel 0xABA988 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA98C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA994 0x40C00000 #low_quality 6 mbps
+writel 0xABA998 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA99C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 864x480 48P 16:9 (NTSC) 864x480 48P 16:9 (PAL)
+writel 0xABA9A4 0x3F800000 #high_quality 1 mbps
+writel 0xABA9A8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA9AC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA9B4 0x3F800000 #medium_quality 1 mbps
+writel 0xABA9B8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA9BC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA9C4 0x3F800000 #low_quality 1 mbps
+writel 0xABA9C8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA9CC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 864x480 24P 16:9 (NTSC) 864x480 24P 16:9 (PAL)
+writel 0xABA9D4 0x3F800000 #high_quality 1 mbps
+writel 0xABA9D8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABA9DC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABA9E4 0x3F800000 #medium_quality 1 mbps
+writel 0xABA9E8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABA9EC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABA9F4 0x3F800000 #low_quality 1 mbps
+writel 0xABA9F8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABA9FC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 640x480 48P 4:3 (NTSC) 640x480 48P 4:3 (PAL)
+writel 0xABAA04 0x3F800000 #high_quality 1 mbps
+writel 0xABAA08 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAA0C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAA14 0x3F800000 #medium_quality 1 mbps
+writel 0xABAA18 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAA1C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAA24 0x3F800000 #low_quality 1 mbps
+writel 0xABAA28 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAA2C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 640x480 24P 4:3 (NTSC) 640x480 24P 4:3 (PAL)
+writel 0xABAA34 0x3F800000 #high_quality 1 mbps
+writel 0xABAA38 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAA3C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAA44 0x3F800000 #medium_quality 1 mbps
+writel 0xABAA48 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAA4C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAA54 0x3F800000 #low_quality 1 mbps
+writel 0xABAA58 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAA5C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : Precise (NTSC) Precise (PAL)
+writel 0xABAA64 0x3F333333 #high_quality 1 mbps
+writel 0xABAA68 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAA6C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAA74 0x3F19999A #medium_quality 1 mbps
+writel 0xABAA78 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAA7C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAA84 0x3F000000 #low_quality 1 mbps
+writel 0xABAA88 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAA8C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1080 120P 16:9 (NTSC) 1920x1080 100P 16:9 (PAL)
+writel 0xABAA94 0x42960000 #high_quality 75 mbps
+writel 0xABAA98 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAA9C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAAA4 0x42700000 #medium_quality 60 mbps
+writel 0xABAAA8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAAAC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAAB4 0x42340000 #low_quality 45 mbps
+writel 0xABAAB8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAABC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1080 120P 16:9 super (NTSC) 1920x1080 100P 16:9 super (PAL)
+writel 0xABAAC4 0x42C80000 #high_quality 100 mbps
+writel 0xABAAC8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAACC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAAD4 0x42700000 #medium_quality 60 mbps
+writel 0xABAAD8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAADC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAAE4 0x42340000 #low_quality 45 mbps
+writel 0xABAAE8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAAEC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1080 100P 16:9 (NTSC) 1920x1080 100P 16:9 (PAL)
+writel 0xABAAF4 0x42100000 #high_quality 36 mbps
+writel 0xABAAF8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAAFC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAB04 0x41F00000 #medium_quality 30 mbps
+writel 0xABAB08 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAB0C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAB14 0x41C00000 #low_quality 24 mbps
+writel 0xABAB18 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAB1C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1280x720 240P 16:9 (NTSC) 1280x720 200P 16:9 (PAL)
+writel 0xABAB24 0x42960000 #high_quality 75 mbps
+writel 0xABAB28 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAB2C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAB34 0x42700000 #medium_quality 60 mbps
+writel 0xABAB38 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAB3C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAB44 0x42340000 #low_quality 45 mbps
+writel 0xABAB48 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAB4C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1280x720 200P 16:9 (NTSC) 1280x720 200P 16:9 (PAL)
+writel 0xABAB54 0x42C80000 #high_quality 100 mbps
+writel 0xABAB58 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAB5C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAB64 0x42700000 #medium_quality 60 mbps
+writel 0xABAB68 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAB6C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAB74 0x42340000 #low_quality 45 mbps
+writel 0xABAB78 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAB7C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1280x720 120P 16:9 (NTSC) 1280x720 100P 16:9 (PAL)
+writel 0xABAB84 0x42700000 #high_quality 60 mbps
+writel 0xABAB88 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAB8C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAB94 0x42340000 #medium_quality 45 mbps
+writel 0xABAB98 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAB9C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABABA4 0x41C00000 #low_quality 24 mbps
+writel 0xABABA8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABABAC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1280x720 120P 16:9 super (NTSC) 1280x720 100P 16:9 super (PAL)
+writel 0xABABB4 0x42700000 #high_quality 60 mbps
+writel 0xABABB8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABABBC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABABC4 0x42340000 #medium_quality 45 mbps
+writel 0xABABC8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABABCC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABABD4 0x41C00000 #low_quality 24 mbps
+writel 0xABABD8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABABDC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 864x480 240P 16:9 (NTSC) 864x480 200P 16:9 (PAL)
+writel 0xABABE4 0x42700000 #high_quality 60 mbps
+writel 0xABABE8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABABEC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABABF4 0x42340000 #medium_quality 45 mbps
+writel 0xABABF8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABABFC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAC04 0x41C00000 #low_quality 24 mbps
+writel 0xABAC08 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAC0C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 864x480 120P 16:9 (NTSC) 864x480 100P 16:9 (PAL)
+writel 0xABAC14 0x3F800000 #high_quality 1 mbps
+writel 0xABAC18 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAC1C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAC24 0x3F800000 #medium_quality 1 mbps
+writel 0xABAC28 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAC2C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAC34 0x3F800000 #low_quality 1 mbps
+writel 0xABAC38 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAC3C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 864x480 90P 16:9 super (NTSC) 864x480 90P 16:9 super (PAL)
+writel 0xABAC44 0x3F800000 #high_quality 1 mbps
+writel 0xABAC48 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAC4C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAC54 0x3F800000 #medium_quality 1 mbps
+writel 0xABAC58 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAC5C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAC64 0x3F800000 #low_quality 1 mbps
+writel 0xABAC68 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAC6C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 864x480 120P 16:9 super (NTSC) 864x480 100P 16:9 super (PAL)
+writel 0xABAC74 0x3F800000 #high_quality 1 mbps
+writel 0xABAC78 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAC7C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAC84 0x3F800000 #medium_quality 1 mbps
+writel 0xABAC88 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAC8C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAC94 0x3F800000 #low_quality 1 mbps
+writel 0xABAC98 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAC9C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 640x480 240P 4:3 (NTSC) 640x480 200P 4:3 (PAL)
+writel 0xABACA4 0x41900000 #high_quality 18 mbps
+writel 0xABACA8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABACAC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABACB4 0x41700000 #medium_quality 15 mbps
+writel 0xABACB8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABACBC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABACC4 0x41400000 #low_quality 12 mbps
+writel 0xABACC8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABACCC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 640x480 120P 4:3 (NTSC) 640x480 100P 4:3 (PAL)
+writel 0xABACD4 0x3F800000 #high_quality 1 mbps
+writel 0xABACD8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABACDC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABACE4 0x3F800000 #medium_quality 1 mbps
+writel 0xABACE8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABACEC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABACF4 0x3F800000 #low_quality 1 mbps
+writel 0xABACF8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABACFC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 432x240 240P 16:9 (NTSC) 432x240 200P 16:9 (PAL)
+writel 0xABAD04 0x40C00000 #high_quality 6 mbps
+writel 0xABAD08 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAD0C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAD14 0x40A00000 #medium_quality 5 mbps
+writel 0xABAD18 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAD1C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAD24 0x40800000 #low_quality 4 mbps
+writel 0xABAD28 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAD2C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 432x240 120P 16:9 (NTSC) 432x240 100P 16:9 (PAL)
+writel 0xABAD34 0x40800000 #high_quality 4 mbps
+writel 0xABAD38 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAD3C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAD44 0x40400000 #medium_quality 3 mbps
+writel 0xABAD48 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAD4C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAD54 0x40000000 #low_quality 2 mbps
+writel 0xABAD58 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAD5C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 320x240 120P 4:3 (NTSC) 320x240 100P 16:9 (PAL)
+writel 0xABAD64 0x40800000 #high_quality 4 mbps
+writel 0xABAD68 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAD6C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABAD74 0x40400000 #medium_quality 3 mbps
+writel 0xABAD78 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABAD7C 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABAD84 0x40000000 #low_quality 2 mbps
+writel 0xABAD88 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABAD8C 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1280x960 120P 4:3 (NTSC) 1280x960 100P 4:3 (PAL)
+writel 0xABAD94 0x42700000 #high_quality 60 mbps
+writel 0xABAD98 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABAD9C 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABADA4 0x42340000 #medium_quality 45 mbps
+writel 0xABADA8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABADAC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABADB4 0x41C00000 #low_quality 24 mbps
+writel 0xABADB8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABADBC 0x3FA00000 #low_quality_high_mult 1.25
+
+
+#resolution : 1920x1080 90P 16:9 super (NTSC) 1920x1080 90P 16:9 super (PAL)
+writel 0xABADC4 0x42960000 #high_quality 75 mbps
+writel 0xABADC8 0x3F400000 #high_quality_low_mult 0.75
+writel 0xABADCC 0x3FA00000 #high_quality_high_mult 1.25
+writel 0xABADD4 0x42700000 #medium_quality 60 mbps
+writel 0xABADD8 0x3F400000 #medium_quality_low_mult 0.75
+writel 0xABADDC 0x3FA00000 #medium_quality_high_mult 1.25
+writel 0xABADE4 0x42340000 #low_quality 45 mbps
+writel 0xABADE8 0x3F400000 #low_quality_low_mult 0.75
+writel 0xABADEC 0x3FA00000 #low_quality_high_mult 1.25
+
+

@@ -1,0 +1,6 @@
+#Custom audio bitrate dump with default values [1.4.14]
+
+
+writel 0xA972B0 0x1F400 #128000
+
+
