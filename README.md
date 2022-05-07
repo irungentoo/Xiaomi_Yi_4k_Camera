@@ -5,7 +5,6 @@ Here you will find Xiaomi Yi 4K Plus exploits and related programs, found by me 
 
 - [Firmware Toolkit](yi4k_plus_firmware_toolkit) : Based on irungentoo unpacker first version, added few things such as table dumpers and made it easier to use, compiled verion in [Releases](releases). More informations and how to use in  its folder readme. LATEST : v1.4 (29/12/2017)
 
-![alt text](http://i64.tinypic.com/10hizup.png)
 
 - [Bitrate Mod](bitrate_mod) : Everything needed in order to patch bitrates and resolutions
 
