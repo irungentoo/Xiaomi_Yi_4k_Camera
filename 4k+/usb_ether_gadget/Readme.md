@@ -1,0 +1,2 @@
+# Enable usb ethernet gadget
+By default the RTOS keeps the usb port to itself, but by using the `CustomPref.linux_usb_serial` preference this can be disabled. To write that preference copy the `system.pref.upload` file to the sd card. This open also loads the `g_serial` kernel module, to instaed load the `g_ether` kernel module and setup the `usb0` interface copy the `autoexec.ash` and the `usb_ether_gadget.sh` to the sd card as well.
